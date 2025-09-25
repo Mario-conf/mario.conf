@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import { Header } from '@/components/layout/header';
+import { Footer } from '@/components/layout/footer';
 
 export const metadata: Metadata = {
   title: 'Mario.conf',
@@ -21,7 +23,11 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="font-body antialiased">{children}</body>
+      <body className="font-body antialiased flex flex-col min-h-screen">
+        <Header />
+        <div className="flex-grow">{children}</div>
+        <Footer />
+      </body>
     </html>
   );
 }
