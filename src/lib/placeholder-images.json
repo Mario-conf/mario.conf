@@ -5,6 +5,36 @@
       "description": "A man with afro hair wearing sunglasses and an orange jacket.",
       "imageUrl": "https://images.unsplash.com/photo-1629399209352-ea50a7a39399?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtYW4lMjB3aXRoJTIwYWZybyUyMHdlYXJpbmclMjBzdW5nbGFzc2VzfGVufDB8fHx8MTc0NTA5MDk2N3ww&ixlib=rb-4.0.3&q=80&w=1080",
       "imageHint": "man fashion"
+    },
+    {
+      "id": "about-image-1",
+      "description": "A portrait of a smiling man with short hair.",
+      "imageUrl": "https://images.unsplash.com/photo-1636377985931-898218afd306?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTg3MDg5NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "work-image-1",
+      "description": "Abstract 3D render of geometric shapes.",
+      "imageUrl": "https://images.unsplash.com/photo-1670189577367-2c6ef31a4b8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMDNkfGVufDB8fHx8MTc1ODcyNTg4OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract 3d"
+    },
+    {
+      "id": "work-image-2",
+      "description": "A modern web application dashboard.",
+      "imageUrl": "https://images.unsplash.com/photo-1584301952952-8544e5ae7a26?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZGFzaGJvYXJkJTIwdWl8ZW58MHx8fHwxNzU4Nzk5NzU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dashboard ui"
+    },
+    {
+      "id": "work-image-3",
+      "description": "A sleek mobile app interface.",
+      "imageUrl": "https://images.unsplash.com/photo-1551650975-87deedd944c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtb2JpbGUlMjBhcHB8ZW58MHx8fHwxNzU4ODAzMzIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mobile app"
+    },
+    {
+      "id": "work-image-4",
+      "description": "A creative branding and logo design.",
+      "imageUrl": "https://images.unsplash.com/photo-1655213675468-19558613ff75?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxsb2dvJTIwZGVzaWdufGVufDB8fHx8MTc1ODcyMTgwNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "logo design"
     }
   ]
 }

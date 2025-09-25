@@ -12,11 +12,11 @@ import Link from 'next/link';
 
 export function Header() {
   const menuItems = [
-    { title: 'About', href: '#' },
-    { title: 'Journey', href: '#' },
-    { title: 'Work', href: '#' },
-    { title: 'Skills', href: '#' },
-    { title: 'Contact', href: '#' },
+    { title: 'About', href: '#about' },
+    { title: 'Journey', href: '#journey' },
+    { title: 'Work', href: '#work' },
+    { title: 'Skills', href: '#skills' },
+    { title: 'Contact', href: '#contact' },
   ];
 
   return (
