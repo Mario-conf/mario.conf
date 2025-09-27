@@ -9,6 +9,8 @@ import {
   SheetTrigger,
 } from '@/components/ui/sheet';
 import Link from 'next/link';
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export function Header() {
   const menuItems = [
@@ -19,10 +21,20 @@ export function Header() {
     { title: 'Contact', href: '#contact' },
   ];
 
+  const aboutImage = PlaceHolderImages.find((img) => img.id === 'about-image-1');
+
   return (
     <header className="absolute top-0 z-20 flex w-full items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
       <div className="flex items-center gap-2">
-        <span className="text-lg font-bold">Mario Conf®</span>
+      <Link href="#hero" className="flex items-center gap-2">
+          {aboutImage && (
+            <Avatar className="h-8 w-8">
+              <AvatarImage src={aboutImage.imageUrl} alt={aboutImage.description} />
+              <AvatarFallback>MC</AvatarFallback>
+            </Avatar>
+          )}
+          <span className="text-lg font-bold whitespace-nowrap">Mario Conf®</span>
+        </Link>
         <Badge variant="secondary" className="gap-1.5 pl-2 pr-2.5">
           <span className="h-2 w-2 rounded-full bg-green-500 animate-pulse"></span>
           Available
