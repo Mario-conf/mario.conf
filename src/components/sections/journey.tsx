@@ -9,7 +9,7 @@ export function Journey() {
     {
       date: "2024 - 2026",
       title: "Higher Technician in Web Application Development - Current",
-      description: "Currently pursuing a higher education cycle in web application development, focusing on technologies such as HTML, CSS, JavaScript, Python, and PHP. Building projects that combine frontend design, backend logic, and systems integration.",
+      description: "Currently pursuing a higher education cycle in web application development, focusing on technologies such as React, Java, Adobe Ilustrator , and Laravel Building projects that combine frontend design, backend logic, and systems integration.",
     },
     {
       date: "Jul 2024 - Sep 2024",
