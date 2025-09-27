@@ -30,7 +30,7 @@ export function Header() {
           {aboutImage && (
             <Avatar className="h-8 w-8">
               <AvatarImage src={aboutImage.imageUrl} alt={aboutImage.description} />
-              <AvatarFallback>MC</AvatarFallback>
+              <AvatarFallback></AvatarFallback>
             </Avatar>
           )}
           <span className="text-lg font-bold whitespace-nowrap">Mario Conf®</span>
