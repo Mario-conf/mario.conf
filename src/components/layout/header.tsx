@@ -27,11 +27,6 @@ export function Header() {
     <header className="absolute top-0 z-20 flex w-full items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
       <div className="flex items-center gap-2">
       <Link href="#hero" className="flex items-center">
-          {aboutImage && (
-            <Avatar className="h-10 w-10 mr-2">
-              <AvatarImage src={aboutImage.imageUrl} alt={aboutImage.description} />
-            </Avatar>
-          )}
           <span className="text-lg font-bold whitespace-nowrap">Mario Conf®</span>
         </Link>
         <Badge variant="secondary" className="gap-1.5 pl-2 pr-2.5">
