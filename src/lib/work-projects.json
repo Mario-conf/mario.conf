@@ -4,141 +4,61 @@
       "id": "work-image-1",
       "title": "Nervflix",
       "category": "Web Design",
-      "year": 2023,
+      "year": 2025,
       "link": "https://nervflix.vercel.app/",
-      "imageUrl": "https://www.waifu.com.mx/wp-content/uploads/2023/05/Neon-Genesis-Evangelion.png",
+      "imageUrl": "https://shop.selecta-vision.com/13867-large_default/neon-genesis-evangelion-serie-completa-2-peliculas.jpg",
       "imageDescription": "nervflix",
       "imageHint": "web design"
     },
     {
       "id": "work-image-2",
-      "title": "ConfTube",
-      "category": "Web Design",
-      "year": 2023,
-      "link": "https://mario-conf.github.io/ConfTube/",
-      "imageUrl": "https://brandemia.org/contenido/subidas/2017/10/logo_youtube-1-960x640.jpg",
-      "imageDescription": "ConfTube",
-      "imageHint": "web design"
-    },
-    {
-      "id": "work-image-3",
-      "title": "Countrydle",
-      "category": "Games",
-      "year": 2023,
-      "link": "https://mario-conf.github.io/Countrydle",
-      "imageUrl": "https://media.istockphoto.com/id/695786514/es/vector/la-tierra-mapa-del-mundo-sobre-fondo-blanco-ant%C3%A1rtida-ilustraci%C3%B3n-de-vector.jpg?s=612x612&w=0&k=20&c=nkPRb7yvwtOc9YfCPiCwczkKzsjmXjjvWjRyM6Q6vII=",
-      "imageDescription": "Countrydle",
-      "imageHint": "game"
-    },
-    {
-      "id": "work-image-4",
-      "title": "Gameflix",
-      "category": "Web Design",
-      "year": 2023,
-      "link": "https://mario-conf.github.io/Gameflix",
-      "imageUrl": "https://camo.githubusercontent.com/30ed0b60e90f17691663a6ed8b8df26d5fa57f8fe0d7662d8a88cf578f6f518f/68747470733a2f2f77616c6c70617065726163636573732e636f6d2f66756c6c2f363037353638392e706e67",
-      "imageDescription": "Gameflix",
-      "imageHint": "web design"
-    },
-    {
-      "id": "work-image-5",
-      "title": "SkyInsight",
+      "title": "Weather App",
       "category": "Applications",
-      "year": 2023,
+      "year": 2024,
       "link": "https://mario-conf.github.io/SkyInsight",
-      "imageUrl": "https://github.com/Mario-conf/App-del-Tiempo/raw/main/src/_e3eaca39-855f-42e2-9568-33fb23d5d277.jpeg?raw=true",
+      "imageUrl": "https://png.pngtree.com/thumb_back/fh260/background/20220217/pngtree-blue-atmospheric-weather-forecast-illustration-background-image_948664.jpg",
       "imageDescription": "SkyInsight",
       "imageHint": "application"
     },
     {
-      "id": "work-image-6",
-      "title": "SoundVFX",
-      "category": "Web Design",
-      "year": 2023,
-      "link": "https://mario-conf.github.io/SoundVFX",
-      "imageUrl": "https://camo.githubusercontent.com/981e84a414b0171bf046b54bdbbd8372faf5f816110cdab6819115d61eb88f96/68747470733a2f2f7777772e617564696f2d746563686e6963612e636f6d2f65732d65732f6d656469612f777973697779672f706172616c6c61782f4154343034374d505f506172616c61785f30312e706e67",
-      "imageDescription": "SoundVFX",
-      "imageHint": "web design"
-    },
-    {
-      "id": "work-image-7",
-      "title": "Quick-CV",
+      "id": "work-image-3",
+      "title": "Calculator Plus",
       "category": "Applications",
-      "year": 2023,
-      "link": "https://mario-conf.github.io/Quick-CV",
-      "imageUrl": "https://camo.githubusercontent.com/54dcc0e29c75f96fe761c93da9458b3c8c06c0cbb18e19d36795221fd5b48d81/68747470733a2f2f63646e2d696d616765732e7a6574792e636f6d2f70616765732f706c61696e5f746578745f726573756d655f6578616d706c655f74656d706c6174655f6e616e6963612e706e67",
-      "imageDescription": "Quick-CV",
-      "imageHint": "application"
-    },
-    {
-      "id": "work-image-8",
-      "title": "SoundBTM",
-      "category": "Applications",
-      "year": 2023,
-      "link": "https://mario-conf.github.io/SoundBTM",
-      "imageUrl": "https://github.com/Mario-conf/SoundBTM/raw/main/src/soundbtm.png",
-      "imageDescription": "SoundBTM",
-      "imageHint": "application"
-    },
-    {
-      "id": "work-image-9",
-      "title": "Rock-Paper-Scissors-lite",
-      "category": "Games",
-      "year": 2023,
-      "link": "https://mario-conf.github.io/Rock-Paper-Scissors-lite",
-      "imageUrl": "https://camo.githubusercontent.com/fa2f6978d5f295b5ed559d5640081ba88360213c05dcd4b3616aa76b664c71c8/68747470733a2f2f7374617469632e7665637465657a792e636f6d2f73797374656d2f7265736f75726365732f70726576696577732f3030302f3639332f3130352f6f726967696e616c2f636172746f6f6e-726f636b-70617065722d73636973736f72732d766563746f722d636861726163746572732e6a7067",
-      "imageDescription": "Rock-Paper-Scissors-lite",
-      "imageHint": "game"
-    },
-    {
-      "id": "work-image-10",
-      "title": "Notapp",
-      "category": "Applications",
-      "year": 2023,
-      "link": "https://mario-conf.github.io/Notapp",
-      "imageUrl": "https://i0.wp.com/highschool.latimes.com/wp-content/uploads/2019/01/45692459364_2d91368a04_z.jpg?fit=640%2C427&ssl=1",
-      "imageDescription": "Notapp",
-      "imageHint": "application"
-    },
-    {
-      "id": "work-image-11",
-      "title": "WordDash",
-      "category": "Games",
-      "year": 2023,
-      "link": "https://mario-conf.github.io/WordDash",
-      "imageUrl": "https://github.com/Mario-conf/WordDash/raw/main/src/wow.png",
-      "imageDescription": "WordDash",
-      "imageHint": "game"
-    },
-    {
-      "id": "work-image-12",
-      "title": "SketchFlow",
-      "category": "Applications",
-      "year": 2023,
-      "link": "https://mario-conf.github.io/SketchFlow",
-      "imageUrl": "https://github.com/Mario-conf/SketchFlow/raw/main/sketchflow.png",
-      "imageDescription": "SketchFlow",
-      "imageHint": "application"
-    },
-    {
-      "id": "work-image-13",
-      "title": "Andalucia",
-      "category": "Web Design",
-      "year": 2023,
-      "link": "https://mario-conf.github.io/Andalucia",
-      "imageUrl": "https://camo.githubusercontent.com/76c8fcd1776a091d5667e495176d18dcdc54579f82717e83698c6e117a7d63f6/68747470733a2f2f696d67732e7365617263682e62726176652e636f6d2f7164654e4955516f534d7672496d5a3644665277785065456b717158676d34614e6d454a71474f4b4f65492f72733a6669743a3836303a303a302f673a63652f6148523063484d364c793933595778732f634746775a584a6a59585a6c4c6d4e762f6253393363433933634467324d6a49782f4d446775616e426e",
-      "imageDescription": "Andalucia",
-      "imageHint": "web design"
-    },
-    {
-      "id": "work-image-14",
-      "title": "Calculator-JS",
-      "category": "Applications",
-      "year": 2023,
+      "year": 2024,
       "link": "https://mario-conf.github.io/Calculator-JS",
-      "imageUrl": "https://camo.githubusercontent.com/328b207cd9a0a0c2bfc787c64c6f11f9e3e87f4f839ec192adbfed46c5c57e8e/68747470733a2f2f637261636b65642e696e666f2f696d616765732f6a6176617363726970742d63616c63756c61746f722e706e67",
+      "imageUrl": "https://github.com/Mario-conf/Calculator-JS/raw/main/src/image.png",
       "imageDescription": "Calculator-JS",
-      "imageHint": "application"
+      "imageHint": "games"
+    },
+    {
+      "id": "work-image-4",
+      "title": "FlappyBird lite",
+      "category": "Games",
+      "year": 2023,
+      "link": "https://mario-conf.github.io/FlappyBird-lite/",
+      "imageUrl": "https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2014/05/flappy-bird-clones.jpg?w=1600&h=900&fit=crop",
+      "imageDescription": "FlappyBird lite",
+      "imageHint": "games"
+    },
+    {
+      "id": "work-image-5",
+      "title": "Tetris lite",
+      "category": "Games",
+      "year": 2023,
+      "link": "https://mario-conf.github.io/Tetris-lite/",
+      "imageUrl": "https://github.com/Mario-conf/Tetris-lite/raw/main/tetris.png",
+      "imageDescription": "tetris lite",
+      "imageHint": "games"
+    },
+    {
+      "id": "work-image-6",
+      "title": "MinesWeeper lite",
+      "category": "Games",
+      "year": 2023,
+      "link": "https://mario-conf.github.io/MinesWeeper-lite/",
+      "imageUrl": "https://github.com/Mario-conf/MinesWeeper-lite/raw/main/minesweeper.png",
+      "imageDescription": "MinesWeeper lite",
+      "imageHint": "games"
     }
   ]
 }
