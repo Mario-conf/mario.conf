@@ -1,4 +1,4 @@
-import { Briefcase, Code, PenTool, Users } from "lucide-react";
+import { Briefcase, Code, PenTool, Users, Lightbulb, ShieldCheck, InfinityIcon, Globe, Infinity } from "lucide-react";
 import { Progress } from "@/components/ui/progress";
 
 export function Skills() {
@@ -17,20 +17,25 @@ export function Skills() {
       description: "Excelling in team environments, fostering communication and a shared sense of purpose.",
     },
     {
-      icon: <Briefcase className="h-8 w-8 text-primary" />,
-      name: "Leadership",
-      description: "Guiding teams to success by providing clear direction and mentorship.",
-    },
-    {
-      icon: <PenTool className="h-8 w-8 text-primary" />,
+      icon: <Lightbulb className="h-8 w-8 text-primary" />,
       name: "Creative Problem Solving",
       description: "Transforming complex challenges into elegant, innovative, and effective solutions.",
     },
      {
-      icon: <Code className="h-8 w-8 text-primary" />,
+      icon: <ShieldCheck className="h-8 w-8 text-primary" />,
       name: "Brand Strategy",
       description: "Developing strong brand identities that resonate with audiences and drive recognition.",
     },
+    {
+      icon: <Infinity className="h-8 w-8 text-primary" />,
+      name: "Adaptability & Learning Agility",
+      description: "Quickly adjusting to new technologies and environments, continuously improving skills.",
+    },
+    {
+      icon: <Globe className="h-8 w-8 text-primary" />,
+      name: "Advanced English Communication",
+      description: "Effectively communicating in English, both written and spoken, in technical and professional contexts.",
+    }
   ];
 
   return (
