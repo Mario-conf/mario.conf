@@ -14,14 +14,14 @@ export function Hero() {
           src={heroImage.imageUrl}
           alt={heroImage.description}
           fill
-          className="object-cover object-top"
+          className="object-cover object-center"
           priority
           data-ai-hint={heroImage.imageHint}
         />
       )}
       <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent" />
       
-      <div className="absolute bottom-10 md:bottom-20 left-0 right-0 z-10 w-full max-w-7xl mx-auto px-4">
+      <div className="absolute bottom-8 md:bottom-16 left-0 right-0 z-10 w-full max-w-7xl mx-auto px-4">
         <div className="max-w-4xl">
           <h1 className="text-7xl md:text-9xl lg:text-[12rem] font-bold tracking-tighter">
             Mario Conf®
