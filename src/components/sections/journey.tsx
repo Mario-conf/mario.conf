@@ -2,7 +2,12 @@
 export function Journey() {
   const journeyItems = [
     {
-      date: "2024 - Present",
+      date: "May 2025",
+      title: "Junior Web Developer (Internship) – Civica Software",
+      description: "Developed and maintained web applications with a focus on performance and usability. Gained hands-on experience in fullstack development and deployment.",
+    },
+    {
+      date: "2024 - 2026",
       title: "Higher Technician in Web Application Development - Current",
       description: "Currently pursuing a higher education cycle in web application development, focusing on technologies such as HTML, CSS, JavaScript, Python, and PHP. Building projects that combine frontend design, backend logic, and systems integration.",
     },
@@ -25,11 +30,6 @@ export function Journey() {
       date: "2020 - 2022",
       title: "Bachelor’s Degree in Technological Sciences",
       description: "Focused on mathematics, computer sciences, and technological problem-solving. Built a strong foundation for web development, networking, and system administration.",
-    },
-    {
-      date: "May 2025",
-      title: "Junior Web Developer (Internship) – Civica Software",
-      description: "Developed and maintained web applications with a focus on performance and usability. Gained hands-on experience in fullstack development and deployment.",
     },
   ];
 
