@@ -22,7 +22,7 @@ export function About() {
           <div className="space-y-6">
             <h2 className="text-4xl md:text-5xl font-bold tracking-tighter">About me</h2>
             <p className="text-muted-foreground text-lg">
-              I'm Mario. I’m passionate about ideas that challenge the norm and experiences that leave an impact. I thrive on curiosity, creative thinking, and turning concepts into meaningful results.
+              I’m Mario. Passion drives me to explore ideas that challenge the norm and create experiences that leave an impact. Curiosity and creative thinking help me turn concepts into meaningful results.
             </p>
             <p className="text-muted-foreground text-lg">
               From crafting memorable brand identities to building scalable backend systems, I thrive on turning ideas into reality. Let's build something amazing together.
