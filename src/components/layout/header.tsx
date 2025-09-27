@@ -28,7 +28,7 @@ export function Header() {
       <div className="flex items-center gap-2">
       <Link href="#hero" className="flex items-center gap-2">
           {aboutImage && (
-            <Avatar className="h-8 w-8">
+            <Avatar className="h-10 w-10">
               <AvatarImage src={aboutImage.imageUrl} alt={aboutImage.description} />
             </Avatar>
           )}
