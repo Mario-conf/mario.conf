@@ -24,7 +24,7 @@ export function Journey() {
     },
     {
       date: 'April 2024 – June 2024',
-      title: 'Junior Developer (Internship) – Aguas y Servicios de la Costa Tropical de Granada',
+      title: 'Internship Sys Developer – Aguas y Servicios de la Costa Tropical de Granada',
       description:
         'Worked on web systems and applications, improving backend and frontend functionalities. Learned to integrate system administration concepts into practical projects.',
       link: 'https://www.aguasyservicios.es/',
@@ -38,7 +38,7 @@ export function Journey() {
     },
     {
       date: '2020 – 2022',
-      title: 'Bachelor’s Degree in Technological Sciences – IES Beatriz Galindo',
+      title: "Bachelor’s Degree in Technological Sciences – IES Beatriz Galindo",
       description:
         'Focused on mathematics, computer sciences, and technological problem-solving. Built a strong foundation for web development, networking, and system administration.',
       link: 'https://ieslalatina.es/',
