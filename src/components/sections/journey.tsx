@@ -2,24 +2,34 @@
 export function Journey() {
   const journeyItems = [
     {
-      date: "2023 - Present",
-      title: "Lead Developer @ Frame Blox",
-      description: "Leading the development of next-generation web applications, focusing on performance and user experience. Mentoring a team of talented developers and driving technical strategy.",
+      date: "2024 - Present",
+      title: "Higher Technician in Web Application Development - Current",
+      description: "Currently pursuing a higher education cycle in web application development, focusing on technologies such as HTML, CSS, JavaScript, Python, and PHP. Building projects that combine frontend design, backend logic, and systems integration.",
     },
     {
-      date: "2020 - 2023",
-      title: "Senior UI/UX Designer @ Supa Blox",
-      description: "Designed and prototyped intuitive user interfaces for a variety of digital products. Collaborated with cross-functional teams to deliver user-centered design solutions.",
+      date: "Jul 2024 - Sep 2024",
+      title: "Tourism Informer – Gualchos Castell de Ferro Town Hall",
+      description: "Provided information and assistance to visitors at local tourist destinations. Developed communication and problem-solving skills in a professional environment.",
     },
     {
-      date: "2018 - 2020",
-      title: "Full-Stack Developer @ Hype Blox",
-      description: "Developed and maintained web applications using modern technologies. Gained extensive experience in both front-end and back-end development.",
+      date: "Apr 2024 - Jun 2024",
+      title: "Junior Developer (Internship) – Aguas y Servicios de la Costa Tropical de Granada",
+      description: "Worked on web systems and applications, improving backend and frontend functionalities. Learned to integrate system administration concepts into practical projects.",
     },
     {
-      date: "2014 - 2018",
-      title: "Bachelor of Science in Computer Science @ University of Technology",
-      description: "Focused on software engineering, data structures, and algorithms. Graduated with honors.",
+      date: "2022 - 2024",
+      title: "Higher Technician in Network Systems Administration",
+      description: "Acquired skills in network management, system administration, and virtual environments (Docker, Kubernetes). Implemented and maintained secure infrastructures for practical projects.",
+    },
+     {
+      date: "2020 - 2022",
+      title: "Bachelor’s Degree in Technological Sciences",
+      description: "Focused on mathematics, computer sciences, and technological problem-solving. Built a strong foundation for web development, networking, and system administration.",
+    },
+    {
+      date: "May 2025",
+      title: "Junior Web Developer (Internship) – Civica Software",
+      description: "Developed and maintained web applications with a focus on performance and usability. Gained hands-on experience in fullstack development and deployment.",
     },
   ];
 
