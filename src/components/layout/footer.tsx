@@ -45,7 +45,7 @@ export function Footer() {
             <ul className="text-lg text-muted-foreground space-y-4">
               {sections[0].links.map((link) => (
                 <li key={link.name}>
-                  <Link href={link.href} className="hover:text-primary transition-colors">{link.name}</Link>
+                  <Link href={link.href} className="hover:text-accent transition-colors">{link.name}</Link>
                 </li>
               ))}
             </ul>
@@ -61,7 +61,7 @@ export function Footer() {
                   href={social.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-muted-foreground hover:text-primary transition-colors"
+                  className="text-muted-foreground hover:text-accent transition-colors"
                   aria-label={social.name}
                 >
                   {React.cloneElement(social.icon, { className: 'w-6 h-6' })}
@@ -75,9 +75,9 @@ export function Footer() {
         <div className="mt-16 border-t border-muted pt-8 flex flex-col md:flex-row justify-between text-sm text-muted-foreground">
           <span>Mario Acosta Vargas. All rights reserved.</span>
           <div className="flex gap-4 mt-4 md:mt-0">
-            <Link href="#" className="hover:text-primary transition-colors">Privacy Policy</Link>
-            <Link href="#" className="hover:text-primary transition-colors">Cookie Policy</Link>
-            <Link href="#" className="hover:text-primary transition-colors">Legal Notice</Link>
+            <Link href="#" className="hover:text-accent transition-colors">Privacy Policy</Link>
+            <Link href="#" className="hover:text-accent transition-colors">Cookie Policy</Link>
+            <Link href="#" className="hover:text-accent transition-colors">Legal Notice</Link>
           </div>
         </div>
       </div>
