@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { allWorkItems } from '@/lib/work-projects';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Input } from '@/components/ui/input';
@@ -16,44 +17,6 @@ import {
 import { useState, useMemo } from 'react';
 import { Search } from 'lucide-react';
 import Link from 'next/link';
-
-const allWorkItems = [
-  {
-    id: 'work-image-1',
-    title: 'Project Alpha',
-    category: 'Web Design',
-    year: 2023,
-    link: '#',
-  },
-  {
-    id: 'work-image-2',
-    title: 'GameHub',
-    category: 'Games',
-    year: 2022,
-    link: '#',
-  },
-  {
-    id: 'work-image-3',
-    title: 'TaskFlow App',
-    category: 'Applications',
-    year: 2024,
-    link: '#',
-  },
-  {
-    id: 'work-image-4',
-    title: 'Brand Refresh',
-    category: 'Web Design',
-    year: 2021,
-    link: '#',
-  },
-  {
-    id: 'work-image-5',
-    title: 'Space Invaders Clone',
-    category: 'Games',
-    year: 2023,
-    link: '#',
-  },
-];
 
 const categories = ['All', 'Games', 'Applications', 'Web Design'];
 
