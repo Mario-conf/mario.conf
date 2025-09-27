@@ -73,7 +73,7 @@ export function Footer() {
 
         {/* Políticas y copyright */}
         <div className="mt-16 border-t border-muted pt-8 flex flex-col md:flex-row justify-between text-sm text-muted-foreground">
-          <span>© {new Date().getFullYear()} Mario Acosta Vargas. All rights reserved.</span>
+          <span>Mario Acosta Vargas. All rights reserved.</span>
           <div className="flex gap-4 mt-4 md:mt-0">
             <Link href="#" className="hover:text-primary transition-colors">Privacy Policy</Link>
             <Link href="#" className="hover:text-primary transition-colors">Cookie Policy</Link>
