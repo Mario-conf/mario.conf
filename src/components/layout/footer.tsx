@@ -12,7 +12,7 @@ export function Footer() {
 
   const sections = [
     {
-      title: "Secciones",
+      title: "Sections",
       links: [
         { name: "About", href: "#about"},
         { name: "Journey", href: "#journey"},
@@ -26,7 +26,7 @@ export function Footer() {
   return (
     <footer className="bg-background text-foreground py-20">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Logo, Nombre, Tagline, Ubicación y Email */}
           <div>
             <div className="flex items-start gap-2">
@@ -53,7 +53,7 @@ export function Footer() {
 
           {/* Redes Sociales con íconos */}
           <div>
-            <h3 className="font-bold text-lg mb-4">Redes Sociales</h3>
+            <h3 className="font-bold text-lg mb-4">Social Media</h3>
             <div className="flex gap-5">
               {socialLinks.map((social) => (
                 <a
@@ -73,11 +73,11 @@ export function Footer() {
 
         {/* Políticas y copyright */}
         <div className="mt-16 border-t border-muted pt-8 flex flex-col md:flex-row justify-between text-sm text-muted-foreground">
-          <span>© {new Date().getFullYear()} Mario Acosta Vargas. Todos los derechos reservados.</span>
+          <span>© {new Date().getFullYear()} Mario Acosta Vargas. All rights reserved.</span>
           <div className="flex gap-4 mt-4 md:mt-0">
-            <Link href="#" className="hover:text-primary transition-colors">Política de Privacidad</Link>
-            <Link href="#" className="hover:text-primary transition-colors">Política de Cookies</Link>
-            <Link href="#" className="hover:text-primary transition-colors">Aviso Legal</Link>
+            <Link href="#" className="hover:text-primary transition-colors">Privacy Policy</Link>
+            <Link href="#" className="hover:text-primary transition-colors">Cookie Policy</Link>
+            <Link href="#" className="hover:text-primary transition-colors">Legal Notice</Link>
           </div>
         </div>
       </div>
