@@ -6,9 +6,8 @@ export function Skills() {
     { name: "UX/UI Design", level: 85 },
     { name: "SysAdmin Linux", level: 80 },
     { name: "DevOps / AWS", level: 80 },
-    { name: "TypeScript & React", level: 75 },
+    { name: "TypeScript / React", level: 75 },
     { name: "PHP / Laravel", level: 70 },
-    { name: "Cloud Deployment", level: 65 },
   ];
 
   const professionalSkills = [
