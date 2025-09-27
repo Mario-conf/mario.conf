@@ -1,3 +1,4 @@
+import { MapPin } from 'lucide-react';
 
 export function Journey() {
   const journeyItems = [
@@ -7,6 +8,7 @@ export function Journey() {
       description:
         'Developed and maintained web applications with a focus on performance and usability. Gained hands-on experience in full-stack development and deployment.',
       link: 'https://civica-soft.com/',
+      location: 'Location',
     },
     {
       date: '2024 – 2026',
@@ -14,6 +16,7 @@ export function Journey() {
       description:
         'Currently pursuing training focused on technologies such as React, Java, Adobe Illustrator, and Laravel. Building projects that combine frontend design, backend logic, and systems integration.',
       link: 'https://www.ieszaidinvergeles.org/',
+      location: 'Location',
     },
     {
       date: 'July 2024 – September 2024',
@@ -21,6 +24,7 @@ export function Journey() {
       description:
         'Provided information and assistance to visitors at local tourist destinations. Developed communication and problem-solving skills in a professional environment.',
       link: 'https://www.gualchos.es/',
+      location: 'Location',
     },
     {
       date: 'April 2024 – June 2024',
@@ -28,6 +32,7 @@ export function Journey() {
       description:
         'Worked on web systems and applications, improving backend and frontend functionalities. Learned to integrate system administration concepts into practical projects.',
       link: 'https://www.aguasyservicios.es/',
+      location: 'Location',
     },
     {
       date: '2022 – 2024',
@@ -35,6 +40,7 @@ export function Journey() {
       description:
         'Acquired skills in network management, system administration, and virtual environments (Docker, Kubernetes). Implemented and maintained secure infrastructures for practical projects.',
       link: 'https://fjburgos.es/',
+      location: 'Location',
     },
     {
       date: '2020 – 2022',
@@ -42,6 +48,7 @@ export function Journey() {
       description:
         'Focused on mathematics, computer sciences, and technological problem-solving. Built a strong foundation for web development, networking, and system administration.',
       link: 'https://ieslalatina.es/',
+      location: 'Location',
     },
   ];
 
@@ -65,7 +72,13 @@ export function Journey() {
                   }`}
                 >
                   <div className={`p-6 rounded-lg bg-secondary/30 border border-secondary ${ index % 2 === 0 ? 'text-left' : 'text-right'}`}>
-                    <p className="text-sm text-muted-foreground mb-1">{item.date}</p>
+                    <div className="flex justify-between items-center mb-1 text-sm text-muted-foreground">
+                      <p>{item.date}</p>
+                      <div className="flex items-center gap-1">
+                        <MapPin className="w-3 h-3" />
+                        <p>{item.location}</p>
+                      </div>
+                    </div>
                     <h3 className="text-xl font-bold mb-2">
                       <a href={item.link} target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-accent">
                         {item.title}
