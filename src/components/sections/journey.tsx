@@ -5,31 +5,37 @@ export function Journey() {
       date: "May 2025",
       title: "Junior Web Developer (Internship) – Civica Software",
       description: "Developed and maintained web applications with a focus on performance and usability. Gained hands-on experience in fullstack development and deployment.",
+      link: "#",
     },
     {
       date: "2024 - 2026",
       title: "Higher Technician in Web Application Development - Current",
       description: "Currently pursuing a higher education cycle in web application development, focusing on technologies such as React, Java, Adobe Ilustrator , and Laravel Building projects that combine frontend design, backend logic, and systems integration.",
+      link: "#",
     },
     {
       date: "Jul 2024 - Sep 2024",
       title: "Tourism Informer – Gualchos Castell de Ferro Town Hall",
       description: "Provided information and assistance to visitors at local tourist destinations. Developed communication and problem-solving skills in a professional environment.",
+      link: "#",
     },
     {
       date: "Apr 2024 - Jun 2024",
       title: "Junior Developer (Internship) – Aguas y Servicios de la Costa Tropical de Granada",
       description: "Worked on web systems and applications, improving backend and frontend functionalities. Learned to integrate system administration concepts into practical projects.",
+      link: "#",
     },
     {
       date: "2022 - 2024",
       title: "Higher Technician in Network Systems Administration",
       description: "Acquired skills in network management, system administration, and virtual environments (Docker, Kubernetes). Implemented and maintained secure infrastructures for practical projects.",
+      link: "#",
     },
      {
       date: "2020 - 2022",
       title: "Bachelor’s Degree in Technological Sciences",
       description: "Focused on mathematics, computer sciences, and technological problem-solving. Built a strong foundation for web development, networking, and system administration.",
+      link: "#",
     },
   ];
 
@@ -54,7 +60,11 @@ export function Journey() {
                 >
                   <div className={`p-6 rounded-lg bg-secondary/30 border border-secondary ${ index % 2 === 0 ? 'text-left' : 'text-right'}`}>
                     <p className="text-sm text-muted-foreground mb-1">{item.date}</p>
-                    <h3 className="text-xl font-bold mb-2">{item.title}</h3>
+                    <h3 className="text-xl font-bold mb-2">
+                      <a href={item.link} target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-accent">
+                        {item.title}
+                      </a>
+                    </h3>
                     <p className="text-muted-foreground">{item.description}</p>
                   </div>
                 </div>
