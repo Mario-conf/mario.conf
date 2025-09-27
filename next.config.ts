@@ -59,8 +59,26 @@ const nextConfig: NextConfig = {
         pathname: '/**',
       },
       {
+        protocol: 'https' as const,
+        hostname: 'shop.selecta-vision.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
         protocol: 'https',
         hostname: 'i0.wp.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'png.pngtree.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'static0.makeuseofimages.com',
         port: '',
         pathname: '/**',
       }
