@@ -19,7 +19,7 @@ export function Journey() {
       location: 'Granada',
     },
     {
-      date: 'July 2024 – September 2024',
+      date: 'Jul 2024 – Sep 2024',
       title: 'Tourism Informer – Gualchos Town Hall',
       description:
         'Worked as a tourism guide, focusing on negotiation, marketing, customer service, and communication. Strengthened soft skills including teamwork, problem-solving, and interpersonal communication.',
@@ -27,7 +27,7 @@ export function Journey() {
       location: 'Castell de Ferro',
     },
     {
-      date: 'April 2024 – June 2024',
+      date: 'Apr 2024 – Jun 2024',
       title: 'Internship Sys Developer – Aguas y Servicios de la Costa Tropical de Granada',
       description:
         'Worked on web systems and backend applications using Python, ticket management, and system maintenance. Gained practical experience in SysAdmin, problem resolution, and application support.',
