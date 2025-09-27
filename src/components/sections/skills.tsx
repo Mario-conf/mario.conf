@@ -3,10 +3,12 @@ import { Progress } from "@/components/ui/progress";
 
 export function Skills() {
   const technicalSkills = [
-    { name: "React / Next.js", level: 95 },
-    { name: "UI/UX Design", level: 90 },
-    { name: "Backend (Node.js, Firebase)", level: 85 },
-    { name: "Automation & CI/CD", level: 80 },
+    { name: "Web Design & Branding", level: 85 },
+    { name: "SysAdmin / Infrastructure", level: 80 },
+    { name: "JavaScript / Frontend", level: 80 },
+    { name: "TypeScript & React", level: 75 },
+    { name: "PHP / Laravel", level: 70 },
+    { name: "AWS / Cloud Deployment", level: 65 },
   ];
 
   const professionalSkills = [
