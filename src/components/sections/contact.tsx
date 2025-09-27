@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail, Instagram } from "lucide-react";
 import Link from "next/link";
 
 export function Contact() {
@@ -13,14 +13,20 @@ export function Contact() {
     {
       icon: <Linkedin />,
       label: "LinkedIn",
-      href: "#",
+      href: "https://www.linkedin.com/in/mario-conf/",
       handle: "Mario Conf",
     },
     {
       icon: <Github />,
       label: "GitHub",
-      href: "#",
-      handle: "marioconf",
+      href: "https://github.com/Mario-conf",
+      handle: "Mario-conf",
+    },
+    {
+      icon: <Instagram />,
+      label: "Instagram",
+      href: "https://instagram.com/_mario.conf?igshid=OGQ5ZDc2ODk2ZA==",
+      handle: "_mario.conf",
     },
   ];
 
@@ -36,7 +42,7 @@ export function Contact() {
             from you. Here's how you can reach me.
           </p>
         </div>
-        <div className="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {socialLinks.map((link) => (
             <Link
               href={link.href}
