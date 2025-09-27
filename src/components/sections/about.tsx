@@ -22,10 +22,10 @@ export function About() {
           <div className="space-y-6">
             <h2 className="text-4xl md:text-5xl font-bold tracking-tighter">About Me</h2>
             <p className="text-muted-foreground text-lg">
-              I&apos;m Mario Conf, a passionate designer and developer with a knack for creating digital experiences that are not only beautiful but also intuitive and effective. My journey in the digital world has been driven by a constant curiosity and a desire to solve complex problems with elegant solutions.
+              I'm Mario Conf, a passionate designer and developer with a knack for creating digital experiences that are not only beautiful but also intuitive and effective. My journey in the digital world has been driven by a constant curiosity and a desire to solve complex problems with elegant solutions.
             </p>
             <p className="text-muted-foreground text-lg">
-              From crafting memorable brand identities to building scalable backend systems, I thrive on turning ideas into reality. Let&apos;s build something amazing together.
+              From crafting memorable brand identities to building scalable backend systems, I thrive on turning ideas into reality. Let's build something amazing together.
             </p>
           </div>
         </div>
