@@ -38,14 +38,13 @@ export function Contact() {
             from you. Here's how you can reach me.
           </p>
         </div>
-        <div className="flex justify-center items-center gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-4xl mx-auto">
           {socialLinks.map((link) => (
             <Button
               asChild
               key={link.label}
               variant="outline"
-              size="icon"
-              className="h-14 w-14 rounded-full"
+              className="h-14 w-full rounded-lg text-lg"
             >
               <Link
                 href={link.href}
@@ -54,6 +53,7 @@ export function Contact() {
                 aria-label={link.label}
               >
                 {link.icon}
+                <span>{link.label}</span>
               </Link>
             </Button>
           ))}
