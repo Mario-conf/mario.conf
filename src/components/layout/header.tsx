@@ -9,7 +9,7 @@ import {
   SheetTrigger,
 } from '@/components/ui/sheet';
 import Link from 'next/link';
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
+import { Avatar, AvatarImage } from '@/components/ui/avatar';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export function Header() {
@@ -30,7 +30,6 @@ export function Header() {
           {aboutImage && (
             <Avatar className="h-8 w-8">
               <AvatarImage src={aboutImage.imageUrl} alt={aboutImage.description} />
-              <AvatarFallback></AvatarFallback>
             </Avatar>
           )}
           <span className="text-lg font-bold whitespace-nowrap">Mario Conf®</span>
