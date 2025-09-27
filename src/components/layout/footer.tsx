@@ -1,4 +1,6 @@
+import React from 'react';
 import { Mail, Linkedin, Github, Instagram, MapPin } from 'lucide-react';
+import Link from 'next/link';
 
 export function Footer() {
   const socialLinks = [
@@ -11,16 +13,22 @@ export function Footer() {
   const sections = [
     {
       title: "Secciones",
-      links: ["About", "Journey", "Work", "Skills", "Contact"]
+      links: [
+        { name: "About", href: "#about"},
+        { name: "Journey", href: "#journey"},
+        { name: "Work", href: "#work"},
+        { name: "Skills", href: "#skills"},
+        { name: "Contact", href: "#contact"}
+      ]
     }
   ];
 
   return (
     <footer className="bg-background text-foreground py-20">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Logo, Nombre, Tagline, Ubicación y Email */}
-          <div className="md:col-span-2 lg:col-span-1">
+          <div>
             <div className="flex items-start gap-2">
               <span className="text-sm transform -rotate-90 origin-top-left mt-4">©{new Date().getFullYear()}</span>
               <div>
@@ -34,11 +42,11 @@ export function Footer() {
           {/* Secciones del sitio */}
           {sections.map((section) => (
             <div key={section.title}>
-              <h3 className="font-bold text-lg mb-2">{section.title}</h3>
-              <ul className="text-sm text-muted-foreground space-y-1">
+              <h3 className="font-bold text-lg mb-4">{section.title}</h3>
+              <ul className="text-base text-muted-foreground space-y-3">
                 {section.links.map((link) => (
-                  <li key={link}>
-                    <a href="#" className="hover:text-primary transition-colors">{link}</a>
+                  <li key={link.name}>
+                    <Link href={link.href} className="hover:text-primary transition-colors">{link.name}</Link>
                   </li>
                 ))}
               </ul>
@@ -47,8 +55,8 @@ export function Footer() {
 
           {/* Redes Sociales con íconos */}
           <div>
-            <h3 className="font-bold text-lg mb-2">Redes Sociales</h3>
-            <div className="flex gap-4">
+            <h3 className="font-bold text-lg mb-4">Redes Sociales</h3>
+            <div className="flex gap-5">
               {socialLinks.map((social) => (
                 <a
                   key={social.name}
@@ -58,7 +66,7 @@ export function Footer() {
                   className="text-muted-foreground hover:text-primary transition-colors"
                   aria-label={social.name}
                 >
-                  {social.icon}
+                  {React.cloneElement(social.icon, { className: 'w-6 h-6' })}
                 </a>
               ))}
             </div>
@@ -66,12 +74,12 @@ export function Footer() {
         </div>
 
         {/* Políticas y copyright */}
-        <div className="mt-12 border-t border-muted-foreground pt-6 flex flex-col md:flex-row justify-between text-sm text-muted-foreground">
-          <span>© 2025 Mario Conf. Todos los derechos reservados.</span>
-          <div className="flex gap-4 mt-2 md:mt-0">
-            <a href="#" className="hover:text-primary transition-colors">Política de Privacidad</a>
-            <a href="#" className="hover:text-primary transition-colors">Política de Cookies</a>
-            <a href="#" className="hover:text-primary transition-colors">Aviso Legal</a>
+        <div className="mt-16 border-t border-muted pt-8 flex flex-col md:flex-row justify-between text-sm text-muted-foreground">
+          <span>© {new Date().getFullYear()} Mario Conf. Todos los derechos reservados.</span>
+          <div className="flex gap-4 mt-4 md:mt-0">
+            <Link href="#" className="hover:text-primary transition-colors">Política de Privacidad</Link>
+            <Link href="#" className="hover:text-primary transition-colors">Política de Cookies</Link>
+            <Link href="#" className="hover:text-primary transition-colors">Aviso Legal</Link>
           </div>
         </div>
       </div>
