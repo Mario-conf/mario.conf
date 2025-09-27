@@ -1,6 +1,6 @@
-import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail, Instagram } from "lucide-react";
 import Link from "next/link";
+import { Button } from "../ui/button";
 
 export function Contact() {
   const socialLinks = [
@@ -8,25 +8,21 @@ export function Contact() {
       icon: <Mail />,
       label: "Email",
       href: "mailto:mario04asir@gmail.com",
-      handle: "mario04asir@gmail.com",
     },
     {
       icon: <Linkedin />,
       label: "LinkedIn",
       href: "https://www.linkedin.com/in/mario-conf/",
-      handle: "Mario Conf",
     },
     {
       icon: <Github />,
       label: "GitHub",
       href: "https://github.com/Mario-conf",
-      handle: "Mario-conf",
     },
     {
       icon: <Instagram />,
       label: "Instagram",
       href: "https://instagram.com/_mario.conf?igshid=OGQ5ZDc2ODk2ZA==",
-      handle: "_mario.conf",
     },
   ];
 
@@ -42,21 +38,24 @@ export function Contact() {
             from you. Here's how you can reach me.
           </p>
         </div>
-        <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="flex justify-center items-center gap-4">
           {socialLinks.map((link) => (
-            <Link
-              href={link.href}
+            <Button
+              asChild
               key={link.label}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block"
+              variant="outline"
+              size="icon"
+              className="h-14 w-14 rounded-full"
             >
-              <div className="p-6 bg-secondary/30 border border-secondary rounded-lg text-center h-full flex flex-col justify-center items-center hover:bg-secondary/60 transition-colors">
-                <div className="mb-4 text-primary">{link.icon}</div>
-                <h3 className="text-xl font-bold mb-1">{link.label}</h3>
-                <p className="text-muted-foreground">{link.handle}</p>
-              </div>
-            </Link>
+              <Link
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={link.label}
+              >
+                {link.icon}
+              </Link>
+            </Button>
           ))}
         </div>
       </div>
