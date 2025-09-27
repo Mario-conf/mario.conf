@@ -2,40 +2,46 @@
 export function Journey() {
   const journeyItems = [
     {
-      date: "May 2025",
-      title: "Junior Web Developer (Internship) – Civica Software",
-      description: "Developed and maintained web applications with a focus on performance and usability. Gained hands-on experience in fullstack development and deployment.",
-      link: "#",
+      date: 'May 2025',
+      title: 'Junior Web Developer (Internship) – Civica Software',
+      description:
+        'Developed and maintained web applications with a focus on performance and usability. Gained hands-on experience in full-stack development and deployment.',
+      link: 'https://civica-soft.com/',
     },
     {
-      date: "2024 - 2026",
-      title: "Higher Technician in Web Application Development - Current",
-      description: "Currently pursuing a higher education cycle in web application development, focusing on technologies such as React, Java, Adobe Ilustrator , and Laravel Building projects that combine frontend design, backend logic, and systems integration.",
-      link: "#",
+      date: '2024 – 2026',
+      title: 'Advanced Vocational Training in Web Application Development – IES Zaidín-Vergeles',
+      description:
+        'Currently pursuing training focused on technologies such as React, Java, Adobe Illustrator, and Laravel. Building projects that combine frontend design, backend logic, and systems integration.',
+      link: 'https://www.ieszaidinvergeles.org/',
     },
     {
-      date: "Jul 2024 - Sep 2024",
-      title: "Tourism Informer – Gualchos Castell de Ferro Town Hall",
-      description: "Provided information and assistance to visitors at local tourist destinations. Developed communication and problem-solving skills in a professional environment.",
-      link: "#",
+      date: 'July 2024 – September 2024',
+      title: 'Tourism Informer – Gualchos Castell de Ferro Town Hall',
+      description:
+        'Provided information and assistance to visitors at local tourist destinations. Developed communication and problem-solving skills in a professional environment.',
+      link: 'https://www.gualchos.es/',
     },
     {
-      date: "Apr 2024 - Jun 2024",
-      title: "Junior Developer (Internship) – Aguas y Servicios de la Costa Tropical de Granada",
-      description: "Worked on web systems and applications, improving backend and frontend functionalities. Learned to integrate system administration concepts into practical projects.",
-      link: "#",
+      date: 'April 2024 – June 2024',
+      title: 'Junior Developer (Internship) – Aguas y Servicios de la Costa Tropical de Granada',
+      description:
+        'Worked on web systems and applications, improving backend and frontend functionalities. Learned to integrate system administration concepts into practical projects.',
+      link: 'https://www.aguasyservicios.es/',
     },
     {
-      date: "2022 - 2024",
-      title: "Higher Technician in Network Systems Administration",
-      description: "Acquired skills in network management, system administration, and virtual environments (Docker, Kubernetes). Implemented and maintained secure infrastructures for practical projects.",
-      link: "#",
+      date: '2022 – 2024',
+      title: 'Advanced Vocational Training in Network Systems Administration – IES Francisco Javier de Burgos',
+      description:
+        'Acquired skills in network management, system administration, and virtual environments (Docker, Kubernetes). Implemented and maintained secure infrastructures for practical projects.',
+      link: 'https://fjburgos.es/',
     },
-     {
-      date: "2020 - 2022",
-      title: "Bachelor’s Degree in Technological Sciences",
-      description: "Focused on mathematics, computer sciences, and technological problem-solving. Built a strong foundation for web development, networking, and system administration.",
-      link: "#",
+    {
+      date: '2020 – 2022',
+      title: 'Bachelor’s Degree in Technological Sciences – IES Beatriz Galindo "La Latina"',
+      description:
+        'Focused on mathematics, computer sciences, and technological problem-solving. Built a strong foundation for web development, networking, and system administration.',
+      link: 'https://ieslalatina.es/',
     },
   ];
 
