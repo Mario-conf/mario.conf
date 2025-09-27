@@ -1,1025 +1,116 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mario.conf</title>
-<style>
-.project-img img {
-  background-color: white;
-  min-height: 150px;
-}
-</style>
-  <link rel="stylesheet"  href="./src/styles.css">
-
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>@mario.conf — Links</title>
+  <!-- Fuente moderna -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Íconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #1f1c2c, #928DAB);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(12px);
+      border-radius: 20px;
+      padding: 40px 30px;
+      max-width: 420px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+      animation: fadeIn 1s ease;
+    }
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid white;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+    h1 {
+      margin: 10px 0 5px;
+      font-size: 1.8em;
+      font-weight: 600;
+    }
+    p.subtitle {
+      margin: 0;
+      font-size: 0.95em;
+      opacity: 0.8;
+    }
+    .links {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+    .link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background: white;
+      color: #333;
+      padding: 15px;
+      border-radius: 12px;
+      font-weight: bold;
+      text-decoration: none;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .link i {
+      font-size: 1.2em;
+    }
+    .link:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    }
+    footer {
+      margin-top: 35px;
+      font-size: 14px;
+      opacity: 0.7;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
 </head>
-
 <body>
-
-  <!--
-    - #MAIN
-  -->
-
-  <main>
-
-    <!--
-      - #SIDEBAR
-    -->
-
-    <aside class="sidebar" data-sidebar>
-
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img src="./src/avatar.png" alt="Mario.conf" width="80">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Mario.conf">Mario.conf </h1>
-
-          <p class="title">Full Stack Developer</p>
-        </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:mario04asir@gmail.com" class="contact-link">mario04asir@gmail.com</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Granada, Spain</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="https://www.instagram.com/_mario.conf/" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link active" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link active" data-nav-link>Portfolio</button>
-          </li>
-<!--
-          <li class="navbar-item">
-            <button class="navbar-link active" data-nav-link>Blog</button>
-          </li>
--->
-           <li class="navbar-item">
-            <button class="navbar-link active" data-nav-link>Contact</button>
-        </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
-<!--
-  - #ABOUT
--->
-
-<article class="about  active" data-page="about">
-
-    <header>
-      <h2 class="h2 article-title">About Me</h2>
-    </header>
-  
-    <section class="about-text">
-      <p>
-        I am a Full Stack Developer and Systems Administrator from Granada, Spain, specializing in web development and cloud computing. I enjoy turning complex problems into simple, beautiful, and intuitive solutions. My focus is on creating functional and attractive websites, always ensuring an optimal and secure user experience.
-      </p>
-      <p>
-        I approach each project as an opportunity for growth and refinement, leading with initiative and making bold decisions. My ability to work in a team, coupled with an empathetic and flexible attitude, allows me to overcome obstacles effectively and contribute to the success of each project.
-      </p>
-    </section>
-  
-    <!--
-      - service
-    -->
-  
-    <section class="service active">
-  
-      <h3 class="h3 service-title">My Services</h3>
-    
-      <ul class="service-list">
-    
-        <li class="service-item">
-    
-          <div class="service-icon-box">
-            <img src="./src/icon-dev.svg" alt="web development icon" width="40">
-          </div>
-    
-          <div class="service-content-box">
-            <h4 class="h4 service-item-title">Web Application Development</h4>
-    
-            <p class="service-item-text">
-              Creation of websites and web applications using technologies such as HTML, CSS, JavaScript, Python, and PHP, ensuring an optimal user experience and advanced functionality.
-            </p>
-          </div>
-    
-        </li>
-    
-        <li class="service-item">
-    
-          <div class="service-icon-box">
-            <img src="./src/icon-docker.svg" alt="Docker icon" width="40">
-          </div>
-    
-          <div class="service-content-box">
-            <h4 class="h4 service-item-title">Systems Administration</h4>
-    
-            <p class="service-item-text">
-              Implementation and management of virtual systems using Docker and Kubernetes, optimizing application efficiency and scalability.
-            </p>
-          </div>
-    
-        </li>
-    
-        <li class="service-item">
-    
-          <div class="service-icon-box">
-            <img src="./src/icon-network.svg" alt="network icon" width="40">
-          </div>
-    
-          <div class="service-content-box">
-            <h4 class="h4 service-item-title">Networks and Telecommunications</h4>
-    
-            <p class="service-item-text">
-              Design, implementation, and maintenance of network infrastructures, ensuring secure and efficient communication between different systems and devices.
-            </p>
-          </div>
-    
-        </li>
-    
-        <li class="service-item">
-    
-          <div class="service-icon-box">
-            <img src="./src/icon-security.svg" alt="cybersecurity icon" width="40">
-          </div>
-    
-          <div class="service-content-box">
-            <h4 class="h4 service-item-title">Cybersecurity</h4>
-    
-            <p class="service-item-text">
-              Protection of applications and systems through identification and mitigation of vulnerabilities, secure configurations, and maintenance of high availability.
-            </p>
-          </div>
-    
-        </li>
-    
-      </ul>
-    
-    </section>
-    
-  </article>
- 
-        <!--
-          - testimonials
-        -->
-        <section class="testimonials">
-        <!--
-          <h3 class="h3 testimonials-title">Testimonials</h3>
-
-          <ul class="testimonials-list has-scrollbar">
-
-          </ul>
-        -->
-        </section>
-        <!--
-          - testimonials modal
-        -->
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./src/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./src/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title></h4>
-
-              <time datetime="2021-06-14"></time>
-
-              <div data-modal-text>
-                <p>
-               </p>
-              </div>
-
-            </div>
-
-          </section>
-
-        </div>
-        <!--
-          - clients
-        -->
-        <section class="clients">
-        <!--
-          <h3 class="h3 clients-title">Clients</h3>
-        -->
-        </section>
-      </article>
-      <br>
-      
-      <!--
-        - #RESUME
-      -->
-        <article class="resume active" data-page="resume">
-
-  <header>
-    <h2 class="h2 article-title">Resume</h2>
-  </header>
-
-  <section class="timeline">
-
-    <div class="title-wrapper">
-      <div class="icon-box">
-        <ion-icon name="book-outline"></ion-icon>
-      </div>
-
-      <h3 class="h3">Education</h3>
+  <div class="card">
+    <!-- Cambia esta imagen por tu foto -->
+    <img src="https://via.placeholder.com/120" alt="Avatar" class="avatar" />
+
+    <h1>@mario.conf</h1>
+    <p class="subtitle">Transformando ideas en soluciones tecnológicas</p>
+
+    <div class="links">
+      <a href="https://mario-conf.github.io" class="link" target="_blank">
+        <i class="fa-solid fa-globe"></i> Mi sitio web
+      </a>
+      <a href="https://www.linkedin.com" class="link" target="_blank">
+        <i class="fa-brands fa-linkedin"></i> LinkedIn
+      </a>
+      <a href="https://github.com" class="link" target="_blank">
+        <i class="fa-brands fa-github"></i> GitHub
+      </a>
+      <a href="https://instagram.com" class="link" target="_blank">
+        <i class="fa-brands fa-instagram"></i> Instagram
+      </a>
     </div>
 
-    <ol class="timeline-list">
-
-      <li class="timeline-item">
-
-        <h4 class="h4 timeline-item-title">Higher Technician in Web Application Development</h4>
-
-        <span>September 2024 — Present</span>
-
-        <p class="timeline-text">
-          Currently pursuing a higher education cycle in web application development, focusing on technologies such as HTML, CSS,
-          JavaScript, Python, and PHP.
-        </p>
-
-      </li>
-
-      <li class="timeline-item">
-
-        <h4 class="h4 timeline-item-title">Higher Technician in Network Systems Administration</h4>
-
-        <span>September 2022 — June 2024</span>
-
-        <p class="timeline-text">
-          Completed a higher education cycle in network systems administration, acquiring skills in network management and virtual
-          systems like Docker and Kubernetes.
-        </p>
-
-      </li>
-
-      <li class="timeline-item">
-
-        <h4 class="h4 timeline-item-title">Bachelor's Degree in Technological Sciences</h4>
-
-        <span>September 2020 — June 2022</span>
-
-        <p class="timeline-text">
-          Completed high school specializing in technological sciences, which provided a solid foundation in mathematics and
-          computer sciences.
-        </p>
-
-      </li>
-
-    </ol>
-
-  </section>
-  
-
-      
-        <section class="timeline">
-      
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="briefcase-outline"></ion-icon>
-            </div>
-      
-            <h3 class="h3">Experience</h3>
-          </div>
-      
-          <ol class="timeline-list">
-
-             <li class="timeline-item">
-            
-              <span><a href="https://www.civica-soft.com/" target="_blank">Civica Software</a></span>
-            
-              <span>May 2025</span>
-            
-              <p class="timeline-text">
-                I worked as an internship junior web developer, focusing on application development and maintenance.
-              </p>
-            
-            </li>
-
-            <li class="timeline-item">
-            
-              <span><a href="https://gualchos.es/inicio/" target="_blank">Gualchos Castell de Ferro Town Hall</a></span>
-            
-              <span>July 2024 — September 2024</span>
-            
-              <p class="timeline-text">
-                Worked as a tourism informer, providing information and assistance to visitors at local tourist destinations.
-              </p>
-            
-            </li>
-  
-            <li class="timeline-item">
-            
-            <span><a href="https://www.aguasyservicios.es/home/" target="_blank">Aguas y Servicios de la Costa Tropical de Granada</a></span>
-            
-              <span>April 2024 — June 2024</span>
-            
-              <p class="timeline-text">
-                Completed junior developer internship, focusing on web systems and application development and maintenance.
-              </p>
-            
-            </li>
-            
-            
-            
-          </ol>
-          
-      
-        </section>
-      
-
-      
- <section class="skill">
-      
- <h3 class="h3 skills-title">My skills</h3>
-      
-    <ul class="skills-list content-card">
-    
-      <li class="skills-item">
-        <div class="title-wrapper">
-          <h5 class="h5">Frontend Development</h5>
-          <data value="80">80%</data>
-        </div>
-        <div class="skill-progress-bg">
-          <div class="skill-progress-fill" style="width: 80%;"></div>
-        </div>
-      </li>
-    
-      <li class="skills-item">
-        <div class="title-wrapper">
-          <h5 class="h5">Backend Development</h5>
-          <data value="60">60%</data>
-        </div>
-        <div class="skill-progress-bg">
-          <div class="skill-progress-fill" style="width: 60%;"></div>
-        </div>
-      </li>
-    
-      <li class="skills-item">
-        <div class="title-wrapper">
-          <h5 class="h5">Cloud Computing</h5>
-          <data value="70">70%</data>
-        </div>
-        <div class="skill-progress-bg">
-          <div class="skill-progress-fill" style="width: 70%;"></div>
-        </div>
-      </li>
-    
-      <li class="skills-item">
-        <div class="title-wrapper">
-          <h5 class="h5">Systems Administration</h5>
-          <data value="80">80%</data>
-        </div>
-        <div class="skill-progress-bg">
-          <div class="skill-progress-fill" style="width: 80%;"></div>
-        </div>
-      </li>
-    
-      <li class="skills-item">
-        <div class="title-wrapper">
-          <h5 class="h5">Artificial Intelligence (AI)</h5>
-          <data value="65">65%</data>
-        </div>
-        <div class="skill-progress-bg">
-          <div class="skill-progress-fill" style="width: 65%;"></div>
-        </div>
-      </li>
-    
-      <li class="skills-item">
-        <div class="title-wrapper">
-          <h5 class="h5">Business Intelligence (BI)</h5>
-          <data value="70">70%</data>
-        </div>
-        <div class="skill-progress-bg">
-          <div class="skill-progress-fill" style="width: 70%;"></div>
-        </div>
-      </li>
-    
-      <li class="skills-item">
-        <div class="title-wrapper">
-          <h5 class="h5">SQL</h5>
-          <data value="75">75%</data>
-        </div>
-        <div class="skill-progress-bg">
-          <div class="skill-progress-fill" style="width: 75%;"></div>
-        </div>
-      </li>
-    
-    </ul>
-    
-      
-    </section>        
-
-      </article>
-      <br>
-
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio active" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-      
-        <section class="projects">
-      
-          <ul class="filter-list">
-      
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-      
-            <li class="filter-item">
-              <button data-filter-btn>Games</button>
-            </li>
-      
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-      
-            <li class="filter-item">
-              <button data-filter-btn>Web design</button>
-            </li>
-      
-          </ul>
-      
-          <div class="filter-select-box">
-      
-            <button class="filter-select" data-select>
-      
-              <div class="select-value" data-select-value>Select category</div>
-      
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-      
-            </button>
-      
-            <ul class="select-list">
-      
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-      
-              <li class="select-item">
-                <button data-select-item>Games</button>
-              </li>
-      
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-      
-              <li class="select-item">
-                <button data-select-item>Web design</button>
-              </li>
-      
-            </ul>
-      
-          </div>
-      
-        </section>
-           <section>
-  <ul class="project-list">
-
-    <li class="project-item active" data-filter-item data-category="games">
-      <a href="https://nervflix.vercel.app/">
-        <figure class="project-img">
-          <div class="project-item-icon-box">
-            <ion-icon name="eye-outline"></ion-icon>
-          </div>
-          <img src="https://www.waifu.com.mx/wp-content/uploads/2023/05/Neon-Genesis-Evangelion.png" alt="nervflix" loading="lazy">
-        </figure>
-        <h3 class="project-title">Nervflix</h3>
-        <p class="project-category">Web design</p>
-      </a>
-    </li>
-
-                <li class="project-item active" data-filter-item data-category="web design">
-                  <a href="https://mario-conf.github.io/ConfTube/">
-              
-                    <figure class="project-img">
-                      <div class="project-item-icon-box">
-                        <ion-icon name="eye-outline"></ion-icon>
-                      </div>
-                      <img src="https://brandemia.org/contenido/subidas/2017/10/logo_youtube-1-960x640.jpg" alt="ConfTube" loading="lazy">
-                    </figure>
-              
-                    <h3 class="project-title">ConfTube</h3>
-                    <p class="project-category">Web design</p>
-              
-                  </a>
-                </li>
-
-    <li class="project-item active" data-filter-item data-category="games">
-      <a href="https://mario-conf.github.io/Countrydle">
-        <figure class="project-img">
-          <div class="project-item-icon-box">
-            <ion-icon name="eye-outline"></ion-icon>
-          </div>
-          <img src="https://media.istockphoto.com/id/695786514/es/vector/la-tierra-mapa-del-mundo-sobre-fondo-blanco-ant%C3%A1rtida-ilustraci%C3%B3n-de-vector.jpg?s=612x612&w=0&k=20&c=nkPRb7yvwtOc9YfCPiCwczkKzsjmXjjvWjRyM6Q6vII=" alt="Countrydle" loading="lazy">
-        </figure>
-        <h3 class="project-title">Countrydle</h3>
-        <p class="project-category">Games</p>
-      </a>
-    </li>
-
-    <li class="project-item active" data-filter-item data-category="web design">
-      <a href="https://mario-conf.github.io/Gameflix">
-        <figure class="project-img">
-          <div class="project-item-icon-box">
-            <ion-icon name="eye-outline"></ion-icon>
-          </div>
-          <img src="https://camo.githubusercontent.com/30ed0b60e90f17691663a6ed8b8df26d5fa57f8fe0d7662d8a88cf578f6f518f/68747470733a2f2f77616c6c70617065726163636573732e636f6d2f66756c6c2f363037353638392e706e67" alt="Gameflix" loading="lazy">
-        </figure>
-        <h3 class="project-title">Gameflix</h3>
-        <p class="project-category">Web design</p>
-      </a>
-    </li>
-  <li class="project-item active" data-filter-item data-category="applications">
-                  <a href="https://mario-conf.github.io/SkyInsight">
-              
-                    <figure class="project-img">
-                      <div class="project-item-icon-box">
-                        <ion-icon name="eye-outline"></ion-icon>
-                      </div>
-                      <img src="https://github.com/Mario-conf/App-del-Tiempo/raw/main/src/_e3eaca39-855f-42e2-9568-33fb23d5d277.jpeg?raw=true" alt="SkyInsight" loading="lazy">
-                    </figure>
-              
-                    <h3 class="project-title">SkyInsight</h3>
-                    <p class="project-category">Applications</p>
-              
-                  </a>
-                </li>
-      <li class="project-item active" data-filter-item data-category="web design">
-                  <a href="https://mario-conf.github.io/SoundVFX">
-              
-                    <figure class="project-img">
-                      <div class="project-item-icon-box">
-                        <ion-icon name="eye-outline"></ion-icon>
-                      </div>
-                      <img src="https://camo.githubusercontent.com/981e84a414b0171bf046b54bdbbd8372faf5f816110cdab6819115d61eb88f96/68747470733a2f2f7777772e617564696f2d746563686e6963612e636f6d2f65732d65732f6d656469612f777973697779672f706172616c6c61782f4154343034374d505f506172616c61785f30312e706e67" alt="SoundVFX" loading="lazy">
-                    </figure>
-              
-                    <h3 class="project-title">SoundVFX</h3>
-                    <p class="project-category">Web design</p>
-              
-                  </a>
-                </li>
-
-    <li class="project-item active" data-filter-item data-category="applications">
-      <a href="https://mario-conf.github.io/Quick-CV">
-        <figure class="project-img">
-          <div class="project-item-icon-box">
-            <ion-icon name="eye-outline"></ion-icon>
-          </div>
-          <img src="https://camo.githubusercontent.com/54dcc0e29c75f96fe761c93da9458b3c8c06c0cbb18e19d36795221fd5b48d81/68747470733a2f2f63646e2d696d616765732e7a6574792e636f6d2f70616765732f706c61696e5f746578745f726573756d655f6578616d706c655f74656d706c6174655f6e616e6963612e706e67" alt="Quick-CV" loading="lazy">
-        </figure>
-        <h3 class="project-title">Quick-CV</h3>
-        <p class="project-category">Applications</p>
-      </a>
-    </li>
-
-    <li class="project-item active" data-filter-item data-category="applications">
-      <a href="https://mario-conf.github.io/SoundBTM">
-        <figure class="project-img">
-          <div class="project-item-icon-box">
-            <ion-icon name="eye-outline"></ion-icon>
-          </div>
-          <img src="https://github.com/Mario-conf/SoundBTM/raw/main/src/soundbtm.png" alt="SoundBTM" loading="lazy">
-        </figure>
-        <h3 class="project-title">SoundBTM</h3>
-        <p class="project-category">Applications</p>
-      </a>
-    </li>
-
-    <li class="project-item active" data-filter-item data-category="games">
-      <a href="https://mario-conf.github.io/Rock-Paper-Scissors-lite">
-        <figure class="project-img">
-          <div class="project-item-icon-box">
-            <ion-icon name="eye-outline"></ion-icon>
-          </div>
-          <img src="https://camo.githubusercontent.com/fa2f6978d5f295b5ed559d5640081ba88360213c05dcd4b3616aa76b664c71c8/68747470733a2f2f7374617469632e7665637465657a792e636f6d2f73797374656d2f7265736f75726365732f70726576696577732f3030302f3639332f3130352f6f726967696e616c2f636172746f6f6e2d726f636b2d70617065722d73636973736f72732d766563746f722d636861726163746572732e6a7067" alt="Rock-Paper-Scissors-lite" loading="lazy">
-        </figure>
-        <h3 class="project-title">Rock-Paper-Scissors-lite</h3>
-        <p class="project-category">Games</p>
-      </a>
-    </li>
-
-    <li class="project-item active" data-filter-item data-category="applications">
-      <a href="https://mario-conf.github.io/Notapp">
-        <figure class="project-img">
-          <div class="project-item-icon-box">
-            <ion-icon name="eye-outline"></ion-icon>
-          </div>
-          <img src="https://i0.wp.com/highschool.latimes.com/wp-content/uploads/2019/01/45692459364_2d91368a04_z.jpg?fit=640%2C427&ssl=1" alt="Notapp" loading="lazy">
-        </figure>
-        <h3 class="project-title">Notapp</h3>
-        <p class="project-category">Applications</p>
-      </a>
-    </li>
-
-    <li class="project-item active" data-filter-item data-category="games">
-      <a href="https://mario-conf.github.io/WordDash">
-        <figure class="project-img">
-          <div class="project-item-icon-box">
-            <ion-icon name="eye-outline"></ion-icon>
-          </div>
-          <img src="https://github.com/Mario-conf/WordDash/raw/main/src/wow.png" alt="WordDash" loading="lazy">
-        </figure>
-        <h3 class="project-title">WordDash</h3>
-        <p class="project-category">Games</p>
-      </a>
-    </li>
-
-    <li class="project-item active" data-filter-item data-category="applications">
-      <a href="https://mario-conf.github.io/SketchFlow">
-        <figure class="project-img">
-          <div class="project-item-icon-box">
-            <ion-icon name="eye-outline"></ion-icon>
-          </div>
-          <img src="https://github.com/Mario-conf/SketchFlow/raw/main/sketchflow.png" alt="SketchFlow" loading="lazy">
-        </figure>
-        <h3 class="project-title">SketchFlow</h3>
-        <p class="project-category">Applications</p>
-      </a>
-    </li>
-
-
-
-        <li class="project-item active" data-filter-item data-category="web design">
-      <a href="https://mario-conf.github.io/Andalucia">
-        <figure class="project-img">
-          <div class="project-item-icon-box">
-            <ion-icon name="eye-outline"></ion-icon>
-          </div>
-          <img src="https://camo.githubusercontent.com/76c8fcd1776a091d5667e495176d18dcdc54579f82717e83698c6e117a7d63f6/68747470733a2f2f696d67732e7365617263682e62726176652e636f6d2f7164654e4955516f534d7672496d5a3644665277785065456b717158676d34614e6d454a71474f4b4f65492f72733a6669743a3836303a303a302f673a63652f6148523063484d364c793933595778732f634746775a584a6a59585a6c4c6d4e762f6253393363433933634467324d6a49782f4d446775616e426e" alt="Andalucia" loading="lazy">
-        </figure>
-        <h3 class="project-title">Andalucia</h3>
-        <p class="project-category">Web design</p>
-      </a>
-    </li>
-              
-
-              
-                <li class="project-item active" data-filter-item data-category="applications">
-                  <a href="https://mario-conf.github.io/Calculator-JS">
-              
-                    <figure class="project-img">
-                      <div class="project-item-icon-box">
-                        <ion-icon name="eye-outline"></ion-icon>
-                      </div>
-                      <img src="https://github.com/Mario-conf/Calculator-JS/raw/main/src/image.png" alt="Calculator-JS" loading="lazy">
-                    </figure>
-              
-                    <h3 class="project-title">Calculator-JS</h3>
-                    <p class="project-category">Applications</p>
-              
-                  </a>
-                </li>
-              
-      
-              
-                <li class="project-item active" data-filter-item data-category="applications">
-                  <a href="https://mario-conf.github.io/ChartCraft">
-              
-                    <figure class="project-img">
-                      <div class="project-item-icon-box">
-                        <ion-icon name="eye-outline"></ion-icon>
-                      </div>
-                      <img src="https://camo.githubusercontent.com/dcbe0c2655c96c1ddc48d540d87f9cdefff0e9cfb4b19fc3601fb34ed7cf844f/68747470733a2f2f696d672e6672656570696b2e636f6d2f666f746f732d7072656d69756d2f6772616669636f2d6d65726361646f2d76616c6f7265732d7175652d6272696c6c612d696e74656e73616d656e74652d657374696c6f2d61627374726163746f2d736f6272652d666f6e646f2d636c61726f2d6772616669636f2d6573746164697374696361732d636f6d65726369616c65732d666f6e646f2d70616e74616c6c612d6675747572697374612d6772616669636f2d6d65726361646f2d62656e65666963696f2d64696e65726f2d696e76657273696f6e2d66696e616e63696572612d6d65726361646f2d76616c6f7265735f3135353830372d393032322e6a7067" alt="ChartCraft" loading="lazy">
-                    </figure>
-              
-                    <h3 class="project-title">ChartCraft</h3>
-                    <p class="project-category">Applications</p>
-              
-                  </a>
-                </li>
-              
-                <li class="project-item active" data-filter-item data-category="web design">
-                  <a href="https://mario-conf.github.io/Pokedex-lite">
-              
-                    <figure class="project-img">
-                      <div class="project-item-icon-box">
-                        <ion-icon name="eye-outline"></ion-icon>
-                      </div>
-                      <img src="https://camo.githubusercontent.com/b08a16966cfe71901e8ff621f1d3d5d58eb936bf5c18ffa8433746e17ffee777/68747470733a2f2f7374617469632e77696b69612e6e6f636f6f6b69652e6e65742f686973746f726961732d66616b656d6f6e2f696d616765732f622f62372f506f6b2543332541396465785f47656e495f4b616e746f2e706e672f7265766973696f6e2f6c61746573743f63623d323031363032303130333333313126706174682d7072656669783d6573" alt="Pokedex-lite" loading="lazy">
-                    </figure>
-              
-                    <h3 class="project-title">Pokedex-lite</h3>
-                    <p class="project-category">Web design</p>
-              
-                  </a>
-                </li>
-              
-                <li class="project-item active" data-filter-item data-category="games">
-                  <a href="https://mario-conf.github.io/TicTacToe-lite">
-              
-                    <figure class="project-img">
-                      <div class="project-item-icon-box">
-                        <ion-icon name="eye-outline"></ion-icon>
-                      </div>
-                      <img src="https://github.com/Mario-conf/TicTacToe-lite/raw/main/src/main.png" alt="TicTacToe-lite" loading="lazy">
-                    </figure>
-              
-                    <h3 class="project-title">TicTacToe-lite</h3>
-                    <p class="project-category">Games</p>
-              
-                  </a>
-                </li>
-              
-                <li class="project-item active" data-filter-item data-category="games">
-                  <a href="https://mario-conf.github.io/Snake-lite">
-              
-                    <figure class="project-img">
-                      <div class="project-item-icon-box">
-                        <ion-icon name="eye-outline"></ion-icon>
-                      </div>
-                      <img src="https://github.com/Mario-conf/Snake-lite/raw/main/snake.png" alt="Snake-lite" loading="lazy">
-                    </figure>
-              
-                    <h3 class="project-title">Snake-lite</h3>
-                    <p class="project-category">Games</p>
-              
-                  </a>
-                </li>
-              
-                <li class="project-item active" data-filter-item data-category="games">
-                  <a href="https://mario-conf.github.io/MinesWeeper-lite">
-              
-                    <figure class="project-img">
-                      <div class="project-item-icon-box">
-                        <ion-icon name="eye-outline"></ion-icon>
-                      </div>
-                      <img src="https://github.com/Mario-conf/MinesWeeper-lite/raw/main/minesweeper.png" alt="MinesWeeper-lite" loading="lazy">
-                    </figure>
-              
-                    <h3 class="project-title">MinesWeeper-lite</h3>
-                    <p class="project-category">Games</p>
-              
-                  </a>
-                </li>
-              
-              
-                <li class="project-item active" data-filter-item data-category="games">
-                  <a href="https://mario-conf.github.io/Tetris-lite">
-              
-                    <figure class="project-img">
-                      <div class="project-item-icon-box">
-                        <ion-icon name="eye-outline"></ion-icon>
-                      </div>
-                      <img src="https://github.com/Mario-conf/Tetris-lite/raw/main/tetris.png" alt="Tetris-lite" loading="lazy">
-                    </figure>
-              
-                    <h3 class="project-title">Tetris-lite</h3>
-                    <p class="project-category">Games</p>
-              
-                  </a>
-                </li>
-              
-                <li class="project-item active" data-filter-item data-category="games">
-                  <a href="https://mario-conf.github.io/FlappyBird-lite">
-              
-                    <figure class="project-img">
-                      <div class="project-item-icon-box">
-                        <ion-icon name="eye-outline"></ion-icon>
-                      </div>
-                      <img src="https://github.com/Mario-conf/FlappyBird-lite/raw/main/src/Read.png" alt="FlappyBird-lite" loading="lazy">
-                    </figure>
-              
-                    <h3 class="project-title">FlappyBird-lite</h3>
-                    <p class="project-category">Games</p>
-              
-                  </a>
-                </li>
-             
-              
-                <li class="project-item active" data-filter-item data-category="games">
-                  <a href="https://mario-conf.github.io/AtariBreackout-lite">
-              
-                    <figure class="project-img">
-                      <div class="project-item-icon-box">
-                        <ion-icon name="eye-outline"></ion-icon>
-                      </div>
-                      <img src="https://github.com/Mario-conf/AtariBreackout-lite/raw/main/atari_breakout.png" alt="AtariBreackout-lite" loading="lazy">
-                    </figure>
-              
-                    <h3 class="project-title">AtariBreackout-lite</h3>
-                    <p class="project-category">Games</p>
-              
-                  </a>
-                </li>
-
-              <li class="project-item active" data-filter-item data-category="games">
-                  <a href="https://mario-conf.github.io/Bingo-console">
-              
-                    <figure class="project-img">
-                      <div class="project-item-icon-box">
-                        <ion-icon name="eye-outline"></ion-icon>
-                      </div>
-                      <img src="https://camo.githubusercontent.com/dc63defd653ca3ec77ed13f7b13213b5bbf6018a18cfb2dea47fd321e4012e38/68747470733a2f2f7374617469632e7665637465657a792e636f6d2f73797374656d2f7265736f75726365732f7468756d626e61696c732f3032312f3934382f3738342f736d616c6c2f62696e676f2d6c6f74746572792d62616c6c732d616e642d7469636b6574732d6261636b67726f756e642d766563746f722e6a7067" alt="MinesWeeper-lite" loading="lazy">
-                    </figure>
-              
-                    <h3 class="project-title">Bingo</h3>
-                    <p class="project-category">Games</p>
-              
-                  </a>
-                </li>
-
-    
-
-  </ul>
-</section>
-
-
-      </article>
-      <br>
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact active" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15901.6678030832!2d-3.603804679672174!3d37.17648795197474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd71fca43f5de6db%3A0x2c90f854d215b20!2sGranada%2C%20Spain!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd" width="400" height="300" loading="lazy"></iframe>
-
-          </figure>
-        </section>
-
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="#" class="form" data-form id="myForm">
-
-            <div class="input-wrapper">
-                <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-            
-                <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-              </div>
-            
-              <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-            
-              <button class="form-btn" type="submit" onclick="sendEmail(event)" data-form-btn>
-                <ion-icon name="paper-plane"></ion-icon>
-                <span>Send Message</span>
-              </button>
-            
-            </form>
-            <script>
-                function sendEmail(event) {
-                  event.preventDefault(); 
-
-                  let form = document.getElementById('myForm');
-                  let fullname = form.elements['fullname'].value;
-                  let email = form.elements['email'].value;
-                  let message = form.elements['message'].value;
-        
-                  let subject = encodeURIComponent('Message from ' + fullname);
-                  let body = encodeURIComponent(message + '\n\nSender Email: ' + email);
-                  let mailtoLink = 'mailto:mario04asir@gmail.com' + '?subject=' + subject + '&body=' + body;
-
-                  window.location.href = mailtoLink;
-                }
-            </script>
-
-        </section>
-
-      </article>
-      <br>
-
-    </div>
-
-  </main>
-
-  <!--
-    - custom js link
-  -->
-  <script src="./src/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+    <footer>© 2025 mario.conf</footer>
+  </div>
 </body>
-
 </html>
