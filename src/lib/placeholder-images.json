@@ -4,12 +4,12 @@
       "id": "hero-image-1",
       "description": "Abstract black wave background.",
       "imageUrl": "https://png.pngtree.com/thumb_back/fh260/background/20231004/pngtree-ethereal-and-dynamic-mesmerizing-abstract-black-wave-background-with-rippled-cloth-image_13511034.png",
-      "imageHint": "conf waves"
+      "imageHint": "conf waves svg"
     },
     {
       "id": "about-image-1",
       "description": "A portrait of a smiling man with short hair.",
-      "imageUrl": "https://images.unsplash.com/photo-1636377985931-898218afd306?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTg3MDg5NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQHz006YLdNZ1w/profile-displayphoto-crop_800_800/B4DZmLNA7dJcAI-/0/1758977069645?e=1761782400&v=beta&t=IKk-JiRPEIzpumi-AkFxCIfVJvgMT11VMXKDJ8WGTm8",
       "imageHint": "man portrait"
     }
   ]

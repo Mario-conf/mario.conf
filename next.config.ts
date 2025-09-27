@@ -81,6 +81,12 @@ const nextConfig: NextConfig = {
         hostname: 'static0.makeuseofimages.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'media.licdn.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
