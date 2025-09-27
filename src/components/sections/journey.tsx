@@ -38,7 +38,7 @@ export function Journey() {
     },
     {
       date: '2020 – 2022',
-      title: 'Bachelor’s Degree in Technological Sciences – IES Beatriz Galindo "La Latina"',
+      title: 'Bachelor’s Degree in Technological Sciences – IES Beatriz Galindo',
       description:
         'Focused on mathematics, computer sciences, and technological problem-solving. Built a strong foundation for web development, networking, and system administration.',
       link: 'https://ieslalatina.es/',
