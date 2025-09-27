@@ -17,7 +17,7 @@ export function Journey() {
     },
     {
       date: 'July 2024 – September 2024',
-      title: 'Tourism Informer – Gualchos Castell de Ferro Town Hall',
+      title: 'Tourism Informer – Gualchos Town Hall',
       description:
         'Provided information and assistance to visitors at local tourist destinations. Developed communication and problem-solving skills in a professional environment.',
       link: 'https://www.gualchos.es/',
