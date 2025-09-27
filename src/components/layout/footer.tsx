@@ -26,7 +26,7 @@ export function Footer() {
   return (
     <footer className="bg-background text-foreground py-20">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Logo, Nombre, Tagline, Ubicación y Email */}
           <div>
             <div className="flex items-start gap-2">
@@ -40,18 +40,16 @@ export function Footer() {
           </div>
 
           {/* Secciones del sitio */}
-          {sections.map((section) => (
-            <div key={section.title}>
-              <h3 className="font-bold text-lg mb-4">{section.title}</h3>
-              <ul className="text-base text-muted-foreground space-y-3">
-                {section.links.map((link) => (
-                  <li key={link.name}>
-                    <Link href={link.href} className="hover:text-primary transition-colors">{link.name}</Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
+          <div className="space-y-6">
+            <h3 className="font-bold text-lg mb-4">{sections[0].title}</h3>
+            <ul className="text-lg text-muted-foreground space-y-4">
+              {sections[0].links.map((link) => (
+                <li key={link.name}>
+                  <Link href={link.href} className="hover:text-primary transition-colors">{link.name}</Link>
+                </li>
+              ))}
+            </ul>
+          </div>
 
           {/* Redes Sociales con íconos */}
           <div>
@@ -75,7 +73,7 @@ export function Footer() {
 
         {/* Políticas y copyright */}
         <div className="mt-16 border-t border-muted pt-8 flex flex-col md:flex-row justify-between text-sm text-muted-foreground">
-          <span>© {new Date().getFullYear()} Mario Conf. Todos los derechos reservados.</span>
+          <span>© {new Date().getFullYear()} Mario Acosta Vargas. Todos los derechos reservados.</span>
           <div className="flex gap-4 mt-4 md:mt-0">
             <Link href="#" className="hover:text-primary transition-colors">Política de Privacidad</Link>
             <Link href="#" className="hover:text-primary transition-colors">Política de Cookies</Link>
