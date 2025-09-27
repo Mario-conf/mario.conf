@@ -32,7 +32,9 @@ export function Footer() {
             <div className="flex items-start gap-2">
               <span className="text-sm transform -rotate-90 origin-top-left mt-4">©{new Date().getFullYear()}</span>
               <div>
-                <h2> <span className="text-lg font-bold">Mario Conf®</span></h2>
+                <Link href="#hero">
+                  <h2> <span className="text-lg font-bold">Mario Conf®</span></h2>
+                </Link>
                 <p className="text-sm mb-1 flex items-center gap-1">
                 <MapPin className="w-4 h-4" /> Granada, España</p>
               </div>
