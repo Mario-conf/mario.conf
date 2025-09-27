@@ -5,35 +5,50 @@
       "title": "Project Alpha",
       "category": "Web Design",
       "year": 2023,
-      "link": "#"
+      "link": "#",
+      "imageUrl": "https://images.unsplash.com/photo-1670189577367-2c6ef31a4b8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMDNkfGVufDB8fHx8MTc1ODcyNTg4OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageDescription": "Abstract 3D render of geometric shapes.",
+      "imageHint": "abstract 3d"
     },
     {
       "id": "work-image-2",
       "title": "GameHub",
       "category": "Games",
       "year": 2022,
-      "link": "#"
+      "link": "#",
+      "imageUrl": "https://images.unsplash.com/photo-1580327344181-c1163234e5a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxnYW1lJTIwY29udHJvbGxlcnxlbnwwfHx8fDE3NTg4MDMzMjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageDescription": "A video game controller on a neon background.",
+      "imageHint": "game controller"
     },
     {
       "id": "work-image-3",
       "title": "TaskFlow App",
       "category": "Applications",
       "year": 2024,
-      "link": "#"
+      "link": "#",
+      "imageUrl": "https://images.unsplash.com/photo-1551650975-87deedd944c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtb2JpbGUlMjBhcHB8ZW58MHx8fHwxNzU4ODAzMzIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageDescription": "A sleek mobile app interface.",
+      "imageHint": "mobile app"
     },
     {
       "id": "work-image-4",
       "title": "Brand Refresh",
       "category": "Web Design",
       "year": 2021,
-      "link": "#"
+      "link": "#",
+      "imageUrl": "https://images.unsplash.com/photo-1517462964-21fd59241bb3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXNpZ24lMjBza2V0Y2h8ZW58MHx8fHwxNzU4ODAzMzIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageDescription": "A person sketching on a notebook.",
+      "imageHint": "web design sketch"
     },
     {
       "id": "work-image-5",
       "title": "Space Invaders Clone",
       "category": "Games",
       "year": 2023,
-      "link": "#"
+      "link": "#",
+      "imageUrl": "https://images.unsplash.com/photo-1565226149261-2c1f26555546?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcmNhZGUlMjBnYW1lJTIwc2NyZWVufGVufDB8fHx8MTc1ODgwMzMyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageDescription": "Arcade space invaders game screen.",
+      "imageHint": "arcade game"
     }
   ]
 }

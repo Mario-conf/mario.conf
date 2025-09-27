@@ -1,7 +1,6 @@
 "use client";
 
 import Image from 'next/image';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { allWorkItems } from '@/lib/work-projects';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -83,22 +82,19 @@ export function Work() {
         >
           <CarouselContent>
             {filteredWorkItems.map((item) => {
-              const image = PlaceHolderImages.find((img) => img.id === item.id);
               return (
                 <CarouselItem key={item.id} className="md:basis-1/2 lg:basis-1/3">
                   <div className="p-1">
                     <Card className="overflow-hidden group h-full flex flex-col">
                       <CardContent className="p-0 flex flex-col flex-grow">
                         <div className="relative h-64 md:h-80">
-                          {image && (
-                            <Image
-                              src={image.imageUrl}
-                              alt={image.description}
-                              fill
-                              className="object-cover group-hover:scale-105 transition-transform duration-500"
-                              data-ai-hint={image.imageHint}
-                            />
-                          )}
+                          <Image
+                            src={item.imageUrl}
+                            alt={item.imageDescription}
+                            fill
+                            className="object-cover group-hover:scale-105 transition-transform duration-500"
+                            data-ai-hint={item.imageHint}
+                          />
                         </div>
                         <div className="p-6 flex flex-col flex-grow">
                           <div className="flex-grow">

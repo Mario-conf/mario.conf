@@ -11,36 +11,6 @@
       "description": "A portrait of a smiling man with short hair.",
       "imageUrl": "https://images.unsplash.com/photo-1636377985931-898218afd306?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTg3MDg5NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "man portrait"
-    },
-    {
-      "id": "work-image-1",
-      "description": "Abstract 3D render of geometric shapes.",
-      "imageUrl": "https://images.unsplash.com/photo-1670189577367-2c6ef31a4b8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMDNkfGVufDB8fHx8MTc1ODcyNTg4OHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract 3d"
-    },
-    {
-      "id": "work-image-2",
-      "description": "A video game controller on a neon background.",
-      "imageUrl": "https://images.unsplash.com/photo-1580327344181-c1163234e5a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxnYW1lJTIwY29udHJvbGxlcnxlbnwwfHx8fDE3NTg4MDMzMjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "game controller"
-    },
-    {
-      "id": "work-image-3",
-      "description": "A sleek mobile app interface.",
-      "imageUrl": "https://images.unsplash.com/photo-1551650975-87deedd944c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtb2JpbGUlMjBhcHB8ZW58MHx8fHwxNzU4ODAzMzIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "mobile app"
-    },
-    {
-      "id": "work-image-4",
-      "description": "A person sketching on a notebook.",
-      "imageUrl": "https://images.unsplash.com/photo-1517462964-21fd59241bb3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXNpZ24lMjBza2V0Y2h8ZW58MHx8fHwxNzU4ODAzMzIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "web design sketch"
-    },
-    {
-      "id": "work-image-5",
-      "description": "Arcade space invaders game screen.",
-      "imageUrl": "https://images.unsplash.com/photo-1565226149261-2c1f26555546?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcmNhZGUlMjBnYW1lJTIwc2NyZWVufGVufDB8fHx8MTc1ODgwMzMyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "arcade game"
     }
   ]
 }
