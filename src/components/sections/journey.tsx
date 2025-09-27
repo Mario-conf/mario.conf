@@ -3,7 +3,7 @@ export function Journey() {
   const journeyItems = [
     {
       date: 'May 2025',
-      title: 'Junior Web Developer (Internship) – Civica Software',
+      title: 'Internship Web Developer – Civica Software',
       description:
         'Developed and maintained web applications with a focus on performance and usability. Gained hands-on experience in full-stack development and deployment.',
       link: 'https://civica-soft.com/',
