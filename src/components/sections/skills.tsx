@@ -1,4 +1,4 @@
-import { Briefcase, Code, PenTool, Users, Lightbulb, Globe, Infinity } from "lucide-react";
+import { Briefcase, Code, PenTool, Users, Lightbulb, Globe, RotateCw } from "lucide-react";
 import { Progress } from "@/components/ui/progress";
 
 export function Skills() {
@@ -27,7 +27,7 @@ export function Skills() {
       description: "Developing strong brand identities that resonate with audiences and drive recognition.",
     },
     {
-      icon: <Infinity className="h-8 w-8 text-primary" />,
+      icon: <RotateCw className="h-8 w-8 text-primary" />,
       name: "Adaptability & Learning Agility",
       description: "Quickly adjusting to new technologies and environments, continuously improving skills.",
     },
