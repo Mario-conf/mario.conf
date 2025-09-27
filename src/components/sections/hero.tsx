@@ -21,7 +21,7 @@ export function Hero() {
 
       <div className="relative z-10 w-full max-w-7xl mx-auto px-4">
         <h1 className="text-8xl md:text-9xl lg:text-[12rem] font-bold tracking-tighter">
-          Jay Cole®
+          Mario Conf®
         </h1>
       </div>
     </div>
