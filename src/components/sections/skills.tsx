@@ -1,4 +1,4 @@
-import { Briefcase, Code, PenTool, Users, Lightbulb, ShieldCheck, InfinityIcon, Globe, Infinity } from "lucide-react";
+import { Briefcase, Code, PenTool, Users, Lightbulb, Globe, Infinity } from "lucide-react";
 import { Progress } from "@/components/ui/progress";
 
 export function Skills() {
@@ -22,7 +22,7 @@ export function Skills() {
       description: "Transforming complex challenges into elegant, innovative, and effective solutions.",
     },
      {
-      icon: <ShieldCheck className="h-8 w-8 text-primary" />,
+      icon: <PenTool className="h-8 w-8 text-primary" />,
       name: "Brand Strategy",
       description: "Developing strong brand identities that resonate with audiences and drive recognition.",
     },
