@@ -2,53 +2,53 @@ import { MapPin } from 'lucide-react';
 
 export function Journey() {
   const journeyItems = [
-    {
+     {
       date: 'May 2025',
       title: 'Internship Web Developer – Civica Software',
       description:
-        'Developed and maintained web applications with a focus on performance and usability. Gained hands-on experience in full-stack development and deployment.',
-      link: 'https://civica-soft.com/',
-      location: 'Location',
+        'Developed and maintained full-stack web applications, focusing on React, TypeScript, Spring Boot, and API development. Gained hands-on experience in system integration and practical application of backend and frontend workflows.',
+      link: 'https://www.civica.com/en-us/',
+      location: 'Granada',
     },
     {
       date: '2024 – 2026',
       title: 'Advanced Vocational Training in Web Application Development – IES Zaidín-Vergeles',
       description:
-        'Currently pursuing training focused on technologies such as React, Java, Adobe Illustrator, and Laravel. Building projects that combine frontend design, backend logic, and systems integration.',
+        'Focused on TypeScript frameworks, Laravel, Java, UX/UI design, Adobe Illustrator, and system logic. Built projects combining frontend design, backend logic, and web application architecture. Developed adaptability, branding, and professional English communication.',
       link: 'https://www.ieszaidinvergeles.org/',
-      location: 'Location',
+      location: 'Granada',
     },
     {
       date: 'July 2024 – September 2024',
       title: 'Tourism Informer – Gualchos Town Hall',
       description:
-        'Provided information and assistance to visitors at local tourist destinations. Developed communication and problem-solving skills in a professional environment.',
+        'Worked as a tourism guide, focusing on negotiation, marketing, customer service, and communication. Strengthened soft skills including teamwork, problem-solving, and interpersonal communication.',
       link: 'https://www.gualchos.es/',
-      location: 'Location',
+      location: 'Castell de Ferro',
     },
     {
       date: 'April 2024 – June 2024',
       title: 'Internship Sys Developer – Aguas y Servicios de la Costa Tropical de Granada',
       description:
-        'Worked on web systems and applications, improving backend and frontend functionalities. Learned to integrate system administration concepts into practical projects.',
+        'Worked on web systems and backend applications using Python, ticket management, and system maintenance. Gained practical experience in SysAdmin, problem resolution, and application support.',
       link: 'https://www.aguasyservicios.es/',
-      location: 'Location',
+      location: 'Motril',
     },
     {
       date: '2022 – 2024',
       title: 'Advanced Vocational Training in Network Systems Administration – IES Francisco Javier de Burgos',
       description:
-        'Acquired skills in network management, system administration, and virtual environments (Docker, Kubernetes). Implemented and maintained secure infrastructures for practical projects.',
+        'Acquired DevOps, SysAdmin, Linux Server, Bash, basic HTML, and Java skills. Implemented and maintained secure infrastructures and automated deployments. Developed technical problem-solving and team collaboration skills.',
       link: 'https://fjburgos.es/',
-      location: 'Location',
+      location: 'Motril',
     },
     {
       date: '2020 – 2022',
-      title: "Bachelor’s Degree in Technological Sciences – IES Beatriz Galindo",
+      title: 'Bachelor’s Degree in Technological Sciences – IES Beatriz Galindo',
       description:
-        'Focused on mathematics, computer sciences, and technological problem-solving. Built a strong foundation for web development, networking, and system administration.',
+        'Focused on logical thinking, technical problem-solving, and foundational programming. Developed web and programming basics, as well as initial exposure to English for technology.',
       link: 'https://ieslalatina.es/',
-      location: 'Location',
+      location: 'Motril',
     },
   ];
 
