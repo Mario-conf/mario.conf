@@ -24,7 +24,7 @@ export function Journey() {
       description:
         'Worked as a tourism guide, focusing on negotiation, marketing, customer service, and communication. Strengthened soft skills including teamwork, problem-solving, and interpersonal communication.',
       link: 'https://www.gualchos.es/',
-      location: 'Castell de Ferro',
+      location: 'Gualchos',
     },
     {
       date: 'Apr 2024 – Jun 2024',
