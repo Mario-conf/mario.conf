@@ -56,23 +56,23 @@ export function Journey() {
     <section id="journey" className="py-16 md:py-32 bg-background">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl md:text-5xl font-bold tracking-tighter text-center mb-12">My Journey</h2>
-        <div className="relative max-w-2xl mx-auto">
-          <div className="absolute left-1/2 -translate-x-1/2 h-full w-0.5 bg-border"></div>
+        <div className="relative max-w-4xl mx-auto">
+          <div className="absolute left-4 md:left-1/2 -translate-x-1/2 h-full w-0.5 bg-border"></div>
           {journeyItems.map((item, index) => (
-            <div key={index} className="relative mb-12">
-              <div className="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 top-1.5 w-4 h-4 rounded-full bg-primary border-4 border-background"></div>
+            <div key={index} className="relative mb-12 pl-12 md:pl-0">
+              <div className="absolute left-4 md:left-1/2 -translate-x-1/2 -translate-y-1/2 top-1.5 w-4 h-4 rounded-full bg-primary border-4 border-background"></div>
               <div
-                className={`w-full flex ${
-                  index % 2 === 0 ? 'justify-start' : 'justify-end'
+                className={`w-full md:flex ${
+                  index % 2 === 0 ? 'md:justify-start' : 'md:justify-end'
                 }`}
               >
                 <div
-                  className={`w-1/2 ${
-                    index % 2 === 0 ? 'pr-8' : 'pl-8'
+                  className={`w-full md:w-1/2 ${
+                    index % 2 === 0 ? 'md:pr-8' : 'md:pl-8'
                   }`}
                 >
-                  <div className={`p-6 rounded-lg bg-secondary/30 border border-secondary ${ index % 2 === 0 ? 'text-left' : 'text-right'}`}>
-                    <div className="flex justify-between items-center mb-1 text-sm text-muted-foreground">
+                  <div className={`p-6 rounded-lg bg-secondary/30 border border-secondary text-left ${ index % 2 !== 0 ? 'md:text-right' : ''}`}>
+                    <div className={`flex items-center mb-1 text-sm text-muted-foreground ${index % 2 !== 0 ? 'md:justify-between flex-row-reverse md:flex-row' : 'justify-between'}`}>
                       <p>{item.date}</p>
                       <div className="flex items-center gap-1">
                         <MapPin className="w-3 h-3" />
