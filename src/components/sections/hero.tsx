@@ -26,7 +26,7 @@ export function Hero() {
       <div className="absolute inset-0 z-10 flex flex-col justify-end">
         <div className="w-full max-w-7xl mx-auto px-4 pb-4 pt-64">
             <div className="max-w-4xl">
-                <h1 className="text-5xl md:text-8xl lg:text-[10rem] font-bold tracking-tighter whitespace-nowrap translate-y-0 mt-12">
+                <h1 className="text-5xl md:text-8xl lg:text-[10rem] font-bold tracking-tighter whitespace-nowrap translate-y-0 mt-24">
                     Mario Conf®
                 </h1>
                 <p className="mt-4 text-lg md:text-2xl text-muted-foreground max-w-2xl">
