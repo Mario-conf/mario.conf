@@ -48,7 +48,7 @@ export function Contact() {
               key={link.name}
               asChild
               variant="outline"
-              className="h-auto w-full p-6 flex flex-col items-center justify-center gap-4 text-center rounded-lg bg-secondary/30 border-secondary hover:bg-secondary"
+              className="h-auto w-full p-6 flex flex-col items-center justify-center gap-4 text-center rounded-lg bg-secondary/30 border-secondary hover:bg-secondary hover:border-accent hover:text-accent transition-colors"
             >
               <Link href={link.href} target="_blank" rel="noopener noreferrer">
                 {link.icon}
