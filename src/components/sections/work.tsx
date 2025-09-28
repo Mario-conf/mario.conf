@@ -59,7 +59,7 @@ export function Work() {
             />
           </div>
 
-          <div className="flex justify-center gap-2 mb-12">
+          <div className="flex justify-center flex-wrap gap-2 mb-12">
             {categories.map((category) => (
               <Button
                 key={category}
