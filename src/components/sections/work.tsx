@@ -84,7 +84,7 @@ export function Work() {
             {filteredWorkItems.map((item) => {
               return (
                 <CarouselItem key={item.id} className="md:basis-1/2 lg:basis-1/3">
-                  <div className="p-1">
+                  <div className="p-1 h-full">
                     <Card className="overflow-hidden group h-full flex flex-col">
                       <CardContent className="p-0 flex flex-col flex-grow">
                         <div className="relative h-64 md:h-80">
