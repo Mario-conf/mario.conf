@@ -1,15 +1,19 @@
+"use client";
+
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import { ArrowDown } from 'lucide-react';
+import { useIsMobile } from '@/hooks/use-mobile';
 
 export function Hero() {
   const heroImage = PlaceHolderImages.find((img) => img.id === 'hero-image-1');
+  const isMobile = useIsMobile();
 
   return (
     <div id="hero" className="relative h-[300px] md:h-auto md:min-h-[80vh] w-full overflow-hidden bg-background">
-      {heroImage && (
+      {heroImage && !isMobile && (
         <Image
           src={heroImage.imageUrl}
           alt={heroImage.description}
