@@ -21,7 +21,7 @@ export function Hero() {
       )}
       <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent" />
       
-      <div className="absolute bottom-0 left-0 right-0 z-10 w-full max-w-7xl mx-auto px-4">
+      <div className="absolute bottom-4 left-0 right-0 z-10 w-full max-w-7xl mx-auto px-4">
         <div className="max-w-4xl">
           <h1 className="text-5xl md:text-8xl lg:text-[10rem] font-bold tracking-tighter whitespace-nowrap">
             Mario Conf®
