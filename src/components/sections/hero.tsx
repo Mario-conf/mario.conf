@@ -30,7 +30,7 @@ export function Hero() {
                     Mario Conf®
                 </h1>
                 <p className="mt-4 text-lg md:text-2xl text-muted-foreground max-w-2xl">
-                    A creative developer and sysadmin focused on building immersive digital experiences.
+                    Creative SysAdmin, DevOps & Fullstack Developer shaping immersive digital experiences.
                 </p>
                 <Button asChild size="lg" className="mt-8 rounded-full">
                     <Link href="#work">
