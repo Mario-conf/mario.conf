@@ -15,4 +15,4 @@ This portfolio was designed and developed by me to showcase my skills and projec
 
 ---
 
-© 2024 Mario Acosta Vargas. All rights reserved.
+© 2025 Mario Acosta Vargas. All rights reserved.
