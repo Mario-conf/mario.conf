@@ -27,9 +27,9 @@ export function Header() {
     <header className="absolute top-0 z-20 flex w-full items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
       <div className="flex items-center gap-2">
       <Link href="#hero" className="flex items-center">
-          <span className="text-lg font-bold whitespace-nowrap">Mario Conf®</span>
+          <span className="text-md font-bold whitespace-nowrap">Mario Conf®</span>
         </Link>
-        <Badge variant="secondary" className="gap-1.5 pl-2 pr-2.5">
+        <Badge variant="secondary" className="gap-1.5 pl-1.5 pr-2 text-xs">
           <span className="h-2 w-2 rounded-full bg-green-500 animate-pulse"></span>
           Available
         </Badge>
