@@ -10,7 +10,7 @@ export function Hero() {
   const heroImage = PlaceHolderImages.find((img) => img.id === 'hero-image-1');
 
   return (
-    <div id="hero" className="relative h-[70vh] md:min-h-[80vh] w-full overflow-hidden bg-background">
+    <div id="hero" className="relative h-[70vh] w-full overflow-hidden bg-background md:min-h-[80vh]">
       {heroImage && (
         <Image
           src={heroImage.imageUrl}
@@ -30,7 +30,7 @@ export function Hero() {
                     Mario Conf®
                 </h1>
                 <p className="mt-4 text-lg md:text-2xl text-muted-foreground max-w-2xl">
-                    A creative designer and developer focused on building immersive digital experiences.
+                    A creative developer and sysadmin focused on building immersive digital experiences.
                 </p>
                 <Button asChild size="lg" className="mt-8 rounded-full">
                     <Link href="#work">
