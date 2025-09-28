@@ -53,9 +53,9 @@ export function Journey() {
   ];
 
   return (
-    <section id="journey" className="py-20 md:py-32 bg-background">
+    <section id="journey" className="py-16 md:py-32 bg-background">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl md:text-5xl font-bold tracking-tighter text-center mb-16">My Journey</h2>
+        <h2 className="text-4xl md:text-5xl font-bold tracking-tighter text-center mb-12">My Journey</h2>
         <div className="relative max-w-2xl mx-auto">
           <div className="absolute left-1/2 -translate-x-1/2 h-full w-0.5 bg-border"></div>
           {journeyItems.map((item, index) => (

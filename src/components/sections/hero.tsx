@@ -23,10 +23,10 @@ export function Hero() {
       
       <div className="absolute bottom-0 left-0 right-0 z-10 w-full max-w-7xl mx-auto px-4">
         <div className="max-w-4xl">
-          <h1 className="text-7xl md:text-9xl lg:text-[12rem] font-bold tracking-tighter whitespace-nowrap">
+          <h1 className="text-6xl md:text-9xl lg:text-[12rem] font-bold tracking-tighter whitespace-nowrap">
             Mario Conf®
           </h1>
-          <p className="mt-4 text-xl md:text-2xl text-muted-foreground max-w-2xl">
+          <p className="mt-4 text-lg md:text-2xl text-muted-foreground max-w-2xl">
             A creative designer and developer focused on building immersive digital experiences.
           </p>
           <Button asChild size="lg" className="mt-8 rounded-full">

@@ -39,7 +39,7 @@ export function Skills() {
   ];
 
   return (
-    <section id="skills" className="py-20 md:py-32 bg-background">
+    <section id="skills" className="py-16 md:py-32 bg-background">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl md:text-5xl font-bold tracking-tighter text-center mb-16">My Skills</h2>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
