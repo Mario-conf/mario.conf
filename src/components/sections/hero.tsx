@@ -23,20 +23,22 @@ export function Hero() {
       )}
       <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent" />
       
-      <div className="absolute bottom-4 left-0 right-0 z-10 w-full max-w-7xl mx-auto px-4">
-        <div className="max-w-4xl">
-          <h1 className="text-5xl md:text-8xl lg:text-[10rem] font-bold tracking-tighter whitespace-nowrap -translate-y-4">
-            Mario Conf®
-          </h1>
-          <p className="mt-4 text-lg md:text-2xl text-muted-foreground max-w-2xl">
-            A creative designer and developer focused on building immersive digital experiences.
-          </p>
-          <Button asChild size="lg" className="mt-8 rounded-full">
-            <Link href="#work">
-              View My Work
-              <ArrowDown />
-            </Link>
-          </Button>
+      <div className="absolute inset-0 z-10 flex flex-col justify-end">
+        <div className="w-full max-w-7xl mx-auto px-4 pb-4 pt-32">
+            <div className="max-w-4xl">
+                <h1 className="text-5xl md:text-8xl lg:text-[10rem] font-bold tracking-tighter whitespace-nowrap -translate-y-4">
+                    Mario Conf®
+                </h1>
+                <p className="mt-4 text-lg md:text-2xl text-muted-foreground max-w-2xl">
+                    A creative designer and developer focused on building immersive digital experiences.
+                </p>
+                <Button asChild size="lg" className="mt-8 rounded-full">
+                    <Link href="#work">
+                    View My Work
+                    <ArrowDown />
+                    </Link>
+                </Button>
+            </div>
         </div>
       </div>
     </div>
