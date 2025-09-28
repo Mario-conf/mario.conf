@@ -5,12 +5,13 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import { ArrowDown } from 'lucide-react';
+import { useIsMobile } from '@/hooks/use-mobile';
 
 export function Hero() {
   const heroImage = PlaceHolderImages.find((img) => img.id === 'hero-image-1');
 
   return (
-    <div id="hero" className="relative h-[300px] md:h-auto md:min-h-[80vh] w-full overflow-hidden bg-background">
+    <div id="hero" className="relative h-[300px] md:min-h-[80vh] w-full overflow-hidden bg-background">
       {heroImage && (
         <Image
           src={heroImage.imageUrl}
@@ -23,10 +24,10 @@ export function Hero() {
       )}
       <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent" />
       
-      <div className="absolute inset-0 z-10 flex flex-col justify-end">
+      <div className="absolute inset-0 z-10 flex flex-col justify-end h-full">
         <div className="w-full max-w-7xl mx-auto px-4 pb-4 pt-64">
             <div className="max-w-4xl">
-                <h1 className="text-5xl md:text-8xl lg:text-[10rem] font-bold tracking-tighter whitespace-nowrap translate-y-0 mt-24">
+                <h1 className="text-5xl md:text-8xl lg:text-[10rem] font-bold tracking-tighter whitespace-nowrap translate-y-0 mt-36">
                     Mario Conf®
                 </h1>
                 <p className="mt-4 text-lg md:text-2xl text-muted-foreground max-w-2xl">
