@@ -23,8 +23,8 @@ export function Hero() {
       )}
       <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent" />
       
-      <div className="absolute inset-0 z-10 flex flex-col justify-end h-full">
-        <div className="w-full max-w-7xl mx-auto px-4 pb-4 pt-48 md:pt-64">
+      <div className="absolute inset-0 z-10">
+        <div className="w-full max-w-7xl mx-auto px-4 pt-48 md:pt-64 pb-4">
             <div className="max-w-4xl">
                 <h1 className="text-5xl md:text-8xl lg:text-[10rem] font-bold tracking-tighter whitespace-nowrap translate-y-0">
                     Mario Conf®
