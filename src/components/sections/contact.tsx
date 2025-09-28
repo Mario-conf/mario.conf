@@ -21,13 +21,13 @@ const contactLinks = [
     name: "GitHub",
     href: "https://github.com/Mario-conf",
     icon: <Github className="w-8 h-8" />,
-    cta: "Follow on GitHub",
+    cta: "View on GitHub",
   },
   {
     name: "Instagram",
     href: "https://instagram.com/_mario.conf",
     icon: <Instagram className="w-8 h-8" />,
-    cta: "Follow on Instagram",
+    cta: "Message on Instagram",
   },
 ];
 
@@ -42,7 +42,7 @@ export function Contact() {
         <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-12">
           Have a project in mind or just want to say hello? I’d love to connect with you.
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
           {contactLinks.map((link) => (
             <Button
               key={link.name}
