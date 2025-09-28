@@ -1,5 +1,4 @@
 import { About } from "@/components/sections/about";
-import { Contact } from "@/components/sections/contact";
 import { Hero } from "@/components/sections/hero";
 import { Journey } from "@/components/sections/journey";
 import { Skills } from "@/components/sections/skills";
@@ -14,7 +13,6 @@ export default function Home() {
       <Journey />
       <Work />
       <Skills />
-      <Contact />
       <ScrollControls />
     </>
   );

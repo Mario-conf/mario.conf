@@ -24,7 +24,7 @@ export function Footer() {
   ];
 
   return (
-    <footer className="bg-background text-foreground py-20">
+    <footer id="contact" className="bg-background text-foreground py-20">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Logo, Nombre, Tagline, Ubicación y Email */}
